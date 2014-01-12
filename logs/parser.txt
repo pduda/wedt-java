@@ -1,0 +1,543 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2014-01-12T03:02:48</date>
+  <millis>1389492168674</millis>
+  <sequence>0</sequence>
+  <logger>Parser</logger>
+  <level>INFO</level>
+  <class>pl.waw.pduda.wedt.Parser</class>
+  <method>parse</method>
+  <thread>10</thread>
+  <message>Parser started</message>
+</record>
+<record>
+  <date>2014-01-12T03:02:48</date>
+  <millis>1389492168890</millis>
+  <sequence>1</sequence>
+  <logger>Parser</logger>
+  <level>INFO</level>
+  <class>pl.waw.pduda.wedt.Parser</class>
+  <method>parseSite</method>
+  <thread>10</thread>
+  <message>Parsing - http://technologie.gazeta.pl/internet/1,104530,15221965,O_czym_jest_najstarszy_mail_w_twojej_skrzynce_pocztowej_.html</message>
+</record>
+<record>
+  <date>2014-01-12T03:03:01</date>
+  <millis>1389492181660</millis>
+  <sequence>2</sequence>
+  <logger>Parser</logger>
+  <level>INFO</level>
+  <class>pl.waw.pduda.wedt.Parser</class>
+  <method>parseSite</method>
+  <thread>10</thread>
+  <message>Parsing - http://technologie.gazeta.pl/internet/1,104665,15222032,Obozy_zaglady_na_Facebooku__czyli_trudna_bitwa_z_mowa.html</message>
+</record>
+<record>
+  <date>2014-01-12T03:03:09</date>
+  <millis>1389492189692</millis>
+  <sequence>3</sequence>
+  <logger>Parser</logger>
+  <level>INFO</level>
+  <class>pl.waw.pduda.wedt.Parser</class>
+  <method>parseSite</method>
+  <thread>10</thread>
+  <message>Parsing - http://technologie.gazeta.pl/internet/1,113842,15218447,Polaroid_chce_wprowadzic_tanie_telewizory_4K_Ultra.html</message>
+</record>
+<record>
+  <date>2014-01-12T03:03:22</date>
+  <millis>1389492202393</millis>
+  <sequence>4</sequence>
+  <logger>Parser</logger>
+  <level>INFO</level>
+  <class>pl.waw.pduda.wedt.Parser</class>
+  <method>parseSite</method>
+  <thread>10</thread>
+  <message>Parsing - http://technologie.gazeta.pl/internet/56,104663,15214408,Mialy_latac__a_plywaly__Dramatyczne__pechowe_i_szczesliwe.html</message>
+</record>
+<record>
+  <date>2014-01-12T03:03:29</date>
+  <millis>1389492209154</millis>
+  <sequence>5</sequence>
+  <logger>Parser</logger>
+  <level>INFO</level>
+  <class>pl.waw.pduda.wedt.Parser</class>
+  <method>parseSite</method>
+  <thread>10</thread>
+  <message>Parsing - http://technologie.gazeta.pl/internet/1,104530,15218295,Android_moze_miec_80__udzialu_w_rynku__ale_te_liczby.html</message>
+</record>
+<record>
+  <date>2014-01-12T03:03:41</date>
+  <millis>1389492221432</millis>
+  <sequence>6</sequence>
+  <logger>Parser</logger>
+  <level>INFO</level>
+  <class>pl.waw.pduda.wedt.Parser</class>
+  <method>parseSite</method>
+  <thread>10</thread>
+  <message>Parsing - http://technologie.gazeta.pl/internet/1,104530,15217614,Jak_zatrzec_slady_swojej_aktywnosci_na_Facebooku_.html</message>
+</record>
+<record>
+  <date>2014-01-12T03:03:53</date>
+  <millis>1389492233509</millis>
+  <sequence>7</sequence>
+  <logger>Parser</logger>
+  <level>INFO</level>
+  <class>pl.waw.pduda.wedt.Parser</class>
+  <method>parseSite</method>
+  <thread>10</thread>
+  <message>Parsing - http://technologie.gazeta.pl/internet/1,104530,15217343,Czy_w_2013_roku_kupowales_elektronike_rozsadnie__Sprawdzilismy_.html</message>
+</record>
+<record>
+  <date>2014-01-12T03:04:06</date>
+  <millis>1389492246177</millis>
+  <sequence>8</sequence>
+  <logger>Parser</logger>
+  <level>INFO</level>
+  <class>pl.waw.pduda.wedt.Parser</class>
+  <method>parseSite</method>
+  <thread>10</thread>
+  <message>Parsing - http://technologie.gazeta.pl/internet/1,104530,15216682,Promocje_z_marketow_i_sklepow_internetowych_02_01_2014.html</message>
+</record>
+<record>
+  <date>2014-01-12T03:04:15</date>
+  <millis>1389492255056</millis>
+  <sequence>9</sequence>
+  <logger>Parser</logger>
+  <level>INFO</level>
+  <class>pl.waw.pduda.wedt.Parser</class>
+  <method>parseSite</method>
+  <thread>10</thread>
+  <message>Parsing - http://technologie.gazeta.pl/internet/1,113841,15215700,Poczta_Polska_zaczyna_dostrzegac_mozliwosci_smartfonow.html</message>
+</record>
+<record>
+  <date>2014-01-12T03:04:23</date>
+  <millis>1389492263442</millis>
+  <sequence>10</sequence>
+  <logger>Parser</logger>
+  <level>INFO</level>
+  <class>pl.waw.pduda.wedt.Parser</class>
+  <method>parseSite</method>
+  <thread>10</thread>
+  <message>Parsing - http://technologie.gazeta.pl/internet/1,104530,15214279,Google_Glass_wciaz_budza_skrajne_emocje.html</message>
+</record>
+<record>
+  <date>2014-01-12T03:04:33</date>
+  <millis>1389492273446</millis>
+  <sequence>11</sequence>
+  <logger>Parser</logger>
+  <level>INFO</level>
+  <class>pl.waw.pduda.wedt.Parser</class>
+  <method>parseSite</method>
+  <thread>10</thread>
+  <message>Parsing - http://technologie.gazeta.pl/internet/1,104530,15212823,W_1964_Isaac_Asimov_i_Arthur_C__Clarke_przewidzieli.html</message>
+</record>
+<record>
+  <date>2014-01-12T03:04:42</date>
+  <millis>1389492282570</millis>
+  <sequence>12</sequence>
+  <logger>Parser</logger>
+  <level>INFO</level>
+  <class>pl.waw.pduda.wedt.Parser</class>
+  <method>parseSite</method>
+  <thread>10</thread>
+  <message>Parsing - http://technologie.gazeta.pl/internet/1,104530,15212286,Odwieczni_rywale_partnerami__Windows_Phone_w_smartfonach.html</message>
+</record>
+<record>
+  <date>2014-01-12T03:04:53</date>
+  <millis>1389492293995</millis>
+  <sequence>13</sequence>
+  <logger>Parser</logger>
+  <level>INFO</level>
+  <class>pl.waw.pduda.wedt.Parser</class>
+  <method>parseSite</method>
+  <thread>10</thread>
+  <message>Parsing - http://technologie.gazeta.pl/internet/1,113841,15206577,Samsung_Galaxy_S5_moze_byc_najmocniejszym_smartfonem.html</message>
+</record>
+<record>
+  <date>2014-01-12T03:05:04</date>
+  <millis>1389492304367</millis>
+  <sequence>14</sequence>
+  <logger>Parser</logger>
+  <level>INFO</level>
+  <class>pl.waw.pduda.wedt.Parser</class>
+  <method>parseSite</method>
+  <thread>10</thread>
+  <message>Parsing - http://technologie.gazeta.pl/internet/1,104530,15205915,Tak_Samsung_wyobraza_sobie_przyszlosc__Co_sadzicie.html</message>
+</record>
+<record>
+  <date>2014-01-12T03:05:16</date>
+  <millis>1389492316492</millis>
+  <sequence>15</sequence>
+  <logger>Parser</logger>
+  <level>INFO</level>
+  <class>pl.waw.pduda.wedt.Parser</class>
+  <method>parseSite</method>
+  <thread>10</thread>
+  <message>Parsing - http://technologie.gazeta.pl/internet/1,104530,15204514,Na_Facebooku_wykorzystuja_tragedie_Schumachera.html</message>
+</record>
+<record>
+  <date>2014-01-12T03:05:28</date>
+  <millis>1389492328557</millis>
+  <sequence>16</sequence>
+  <logger>Parser</logger>
+  <level>INFO</level>
+  <class>pl.waw.pduda.wedt.Parser</class>
+  <method>parseSite</method>
+  <thread>10</thread>
+  <message>Parsing - http://technologie.gazeta.pl/internet/1,104530,15205029,Kolejna_wojna_z_Apple_na_horyzoncie__Android_trafi.html</message>
+</record>
+<record>
+  <date>2014-01-12T03:05:38</date>
+  <millis>1389492338974</millis>
+  <sequence>17</sequence>
+  <logger>Parser</logger>
+  <level>INFO</level>
+  <class>pl.waw.pduda.wedt.Parser</class>
+  <method>parseSite</method>
+  <thread>10</thread>
+  <message>Parsing - http://technologie.gazeta.pl/internet/1,113840,15205016,Sylwester_w_Google_Doodle_w_stylu_disco.html</message>
+</record>
+<record>
+  <date>2014-01-12T03:05:46</date>
+  <millis>1389492346892</millis>
+  <sequence>18</sequence>
+  <logger>Parser</logger>
+  <level>INFO</level>
+  <class>pl.waw.pduda.wedt.Parser</class>
+  <method>parseSite</method>
+  <thread>10</thread>
+  <message>Parsing - http://technologie.gazeta.pl/internet/1,113840,15202781,Kupiles_komputer__Mozliwe__ze_NSA_juz_tam_jest.html</message>
+</record>
+<record>
+  <date>2014-01-12T03:05:59</date>
+  <millis>1389492359066</millis>
+  <sequence>19</sequence>
+  <logger>Parser</logger>
+  <level>INFO</level>
+  <class>pl.waw.pduda.wedt.Parser</class>
+  <method>parseSite</method>
+  <thread>10</thread>
+  <message>Parsing - http://technologie.gazeta.pl/internet/1,104530,15200235,_Opinia_publiczna_musi_to_wiedziec_o_dronach_.html</message>
+</record>
+<record>
+  <date>2014-01-12T03:06:11</date>
+  <millis>1389492371077</millis>
+  <sequence>20</sequence>
+  <logger>Parser</logger>
+  <level>INFO</level>
+  <class>pl.waw.pduda.wedt.Parser</class>
+  <method>parseSite</method>
+  <thread>10</thread>
+  <message>Parsing - http://technologie.gazeta.pl/internet/1,104530,15200829,Bedziesz_zdziwiony_jak_blisko_jest_wielka_przemiana.html</message>
+</record>
+<record>
+  <date>2014-01-12T03:06:22</date>
+  <millis>1389492382808</millis>
+  <sequence>21</sequence>
+  <logger>Parser</logger>
+  <level>INFO</level>
+  <class>pl.waw.pduda.wedt.Parser</class>
+  <method>parseSite</method>
+  <thread>10</thread>
+  <message>Parsing - http://technologie.gazeta.pl/internet/1,104530,15200180,Jak_obrabowac_bankomat__Wystarczy_pendrive__scyzoryk.html</message>
+</record>
+<record>
+  <date>2014-01-12T03:06:34</date>
+  <millis>1389492394454</millis>
+  <sequence>22</sequence>
+  <logger>Parser</logger>
+  <level>INFO</level>
+  <class>pl.waw.pduda.wedt.Parser</class>
+  <method>parseSite</method>
+  <thread>10</thread>
+  <message>Parsing - http://technologie.gazeta.pl/internet/1,104530,15198329,Ta_nowa_technika_kryminalistyczna_pozwoli_znajdowac.html</message>
+</record>
+<record>
+  <date>2014-01-12T03:06:48</date>
+  <millis>1389492408484</millis>
+  <sequence>23</sequence>
+  <logger>Parser</logger>
+  <level>INFO</level>
+  <class>pl.waw.pduda.wedt.Parser</class>
+  <method>parseSite</method>
+  <thread>10</thread>
+  <message>Parsing - http://technologie.gazeta.pl/internet/1,104530,15196591,Kobiety__wino_i_Galaxy_Gear_czyli_jak_Samsung_reklamuje.html</message>
+</record>
+<record>
+  <date>2014-01-12T03:07:00</date>
+  <millis>1389492420588</millis>
+  <sequence>24</sequence>
+  <logger>Parser</logger>
+  <level>INFO</level>
+  <class>pl.waw.pduda.wedt.Parser</class>
+  <method>parseSite</method>
+  <thread>10</thread>
+  <message>Parsing - http://technologie.gazeta.pl/internet/1,104530,15196509,Urzadzenia_mobilne_coraz_popularniejsze__Dzieki_temu.html</message>
+</record>
+<record>
+  <date>2014-01-12T03:07:09</date>
+  <millis>1389492429356</millis>
+  <sequence>25</sequence>
+  <logger>Parser</logger>
+  <level>INFO</level>
+  <class>pl.waw.pduda.wedt.Parser</class>
+  <method>parseSite</method>
+  <thread>10</thread>
+  <message>Parsing - http://technologie.gazeta.pl/internet/1,104530,15189643,Osmieszyl_polskich_policjantow__teraz_przebil_milion.html</message>
+</record>
+<record>
+  <date>2014-01-12T03:07:21</date>
+  <millis>1389492441461</millis>
+  <sequence>26</sequence>
+  <logger>Parser</logger>
+  <level>INFO</level>
+  <class>pl.waw.pduda.wedt.Parser</class>
+  <method>parseSite</method>
+  <thread>10</thread>
+  <message>Parsing - http://technologie.gazeta.pl/internet/1,113840,15193600,Na_YouTube_i_Facebooka_zostanie_we_Francji_nalozony.html</message>
+</record>
+<record>
+  <date>2014-01-12T03:07:30</date>
+  <millis>1389492450989</millis>
+  <sequence>27</sequence>
+  <logger>Parser</logger>
+  <level>INFO</level>
+  <class>pl.waw.pduda.wedt.Parser</class>
+  <method>parseSite</method>
+  <thread>10</thread>
+  <message>Parsing - http://technologie.gazeta.pl/internet/1,113841,15192481,Microsoft_w_swiatecznym_humorze__20GB_na_Skydrive.html</message>
+</record>
+<record>
+  <date>2014-01-12T03:07:43</date>
+  <millis>1389492463037</millis>
+  <sequence>28</sequence>
+  <logger>Parser</logger>
+  <level>INFO</level>
+  <class>pl.waw.pduda.wedt.Parser</class>
+  <method>parseSite</method>
+  <thread>10</thread>
+  <message>Parsing - http://technologie.gazeta.pl/internet/1,113841,15192178,W_przyszlym_roku_Nokia_zaprezentuje_inteligentny_zegarek_.html</message>
+</record>
+<record>
+  <date>2014-01-12T03:07:52</date>
+  <millis>1389492472108</millis>
+  <sequence>29</sequence>
+  <logger>Parser</logger>
+  <level>INFO</level>
+  <class>pl.waw.pduda.wedt.Parser</class>
+  <method>parseSite</method>
+  <thread>10</thread>
+  <message>Parsing - http://technologie.gazeta.pl/internet/1,104530,15190037,Stworzenie_tego_rozszerzenia_do_Chrome_bylo_kwestia.html</message>
+</record>
+<record>
+  <date>2014-01-12T03:08:03</date>
+  <millis>1389492483375</millis>
+  <sequence>30</sequence>
+  <logger>Parser</logger>
+  <level>INFO</level>
+  <class>pl.waw.pduda.wedt.Parser</class>
+  <method>parseSite</method>
+  <thread>10</thread>
+  <message>Parsing - http://technologie.gazeta.pl/internet/1,104665,15184570,Maja_pomagac_nam_w_internecie__ale_wolimy_rozmawiac.html</message>
+</record>
+<record>
+  <date>2014-01-12T03:08:11</date>
+  <millis>1389492491754</millis>
+  <sequence>31</sequence>
+  <logger>Parser</logger>
+  <level>INFO</level>
+  <class>pl.waw.pduda.wedt.Parser</class>
+  <method>parseSite</method>
+  <thread>10</thread>
+  <message>Parsing - http://technologie.gazeta.pl/internet/1,113842,15189703,Sony_i_Panasonic_koncza_wspolprace___czy_to_koniec.html</message>
+</record>
+<record>
+  <date>2014-01-12T03:08:23</date>
+  <millis>1389492503866</millis>
+  <sequence>32</sequence>
+  <logger>Parser</logger>
+  <level>INFO</level>
+  <class>pl.waw.pduda.wedt.Parser</class>
+  <method>parseSite</method>
+  <thread>10</thread>
+  <message>Parsing - http://technologie.gazeta.pl/internet/1,113841,15187887,Powazna_luka_w_zabezpieczeniach_Galaxy_S4__Aktualizacja_.html</message>
+</record>
+<record>
+  <date>2014-01-12T03:08:35</date>
+  <millis>1389492515566</millis>
+  <sequence>33</sequence>
+  <logger>Parser</logger>
+  <level>INFO</level>
+  <class>pl.waw.pduda.wedt.Parser</class>
+  <method>parseSite</method>
+  <thread>10</thread>
+  <message>Parsing - http://technologie.gazeta.pl/internet/56,104530,15187222,Najwieksze_technologiczne_wpadki_2013_roku.html</message>
+</record>
+<record>
+  <date>2014-01-12T03:08:46</date>
+  <millis>1389492526872</millis>
+  <sequence>34</sequence>
+  <logger>Parser</logger>
+  <level>INFO</level>
+  <class>pl.waw.pduda.wedt.Parser</class>
+  <method>parseSite</method>
+  <thread>10</thread>
+  <message>Parsing - http://technologie.gazeta.pl/internet/56,104530,15186199,Najlepsze_aplikacje_i_gry_na_Androida__ktore_musisz.html</message>
+</record>
+<record>
+  <date>2014-01-12T03:08:57</date>
+  <millis>1389492537715</millis>
+  <sequence>35</sequence>
+  <logger>Parser</logger>
+  <level>INFO</level>
+  <class>pl.waw.pduda.wedt.Parser</class>
+  <method>parseSite</method>
+  <thread>10</thread>
+  <message>Parsing - http://technologie.gazeta.pl/internet/1,113840,15187071,Jutro_swieta_Bozego_Narodzenia___dlaczego_obchodzimy.html</message>
+</record>
+<record>
+  <date>2014-01-12T03:09:07</date>
+  <millis>1389492547278</millis>
+  <sequence>36</sequence>
+  <logger>Parser</logger>
+  <level>INFO</level>
+  <class>pl.waw.pduda.wedt.Parser</class>
+  <method>parseSite</method>
+  <thread>10</thread>
+  <message>Parsing - http://technologie.gazeta.pl/internet/1,104530,15186156,Dzieki_tej_umowie_Apple_zdobedzie_miliony_nowych_klientow_.html</message>
+</record>
+<record>
+  <date>2014-01-12T03:09:15</date>
+  <millis>1389492555891</millis>
+  <sequence>37</sequence>
+  <logger>Parser</logger>
+  <level>INFO</level>
+  <class>pl.waw.pduda.wedt.Parser</class>
+  <method>parseSite</method>
+  <thread>10</thread>
+  <message>Parsing - http://technologie.gazeta.pl/internet/1,113840,15186656,Oto_najlepsze__co_bylo_na_YouTube_w_2013_roku__WIDEO_.html</message>
+</record>
+<record>
+  <date>2014-01-12T03:09:27</date>
+  <millis>1389492567705</millis>
+  <sequence>38</sequence>
+  <logger>Parser</logger>
+  <level>INFO</level>
+  <class>pl.waw.pduda.wedt.Parser</class>
+  <method>parseSite</method>
+  <thread>10</thread>
+  <message>Parsing - http://technologie.gazeta.pl/internet/1,104530,15186140,_Nie_denerwuj_sie__ale_natknalem_sie_na_Twoje_nagie.html</message>
+</record>
+<record>
+  <date>2014-01-12T03:09:39</date>
+  <millis>1389492579828</millis>
+  <sequence>39</sequence>
+  <logger>Parser</logger>
+  <level>INFO</level>
+  <class>pl.waw.pduda.wedt.Parser</class>
+  <method>parseSite</method>
+  <thread>10</thread>
+  <message>Parsing - http://technologie.gazeta.pl/internet/1,104530,15186269,Kosmos_made_in_China.html</message>
+</record>
+<record>
+  <date>2014-01-12T03:09:48</date>
+  <millis>1389492588230</millis>
+  <sequence>40</sequence>
+  <logger>Parser</logger>
+  <level>INFO</level>
+  <class>pl.waw.pduda.wedt.Parser</class>
+  <method>parseSite</method>
+  <thread>10</thread>
+  <message>Parsing - http://technologie.gazeta.pl/internet/1,104530,15182501,Dziennik_telewizyjny_sprzed_25_lat_zdumiewajaco_trafnie.html</message>
+</record>
+<record>
+  <date>2014-01-12T03:10:00</date>
+  <millis>1389492600312</millis>
+  <sequence>41</sequence>
+  <logger>Parser</logger>
+  <level>INFO</level>
+  <class>pl.waw.pduda.wedt.Parser</class>
+  <method>parseSite</method>
+  <thread>10</thread>
+  <message>Parsing - http://technologie.gazeta.pl/internet/1,104530,15183101,Bronislaw_Komorowski_zyczy_fejsbukowiczom__samych.html</message>
+</record>
+<record>
+  <date>2014-01-12T03:10:08</date>
+  <millis>1389492608688</millis>
+  <sequence>42</sequence>
+  <logger>Parser</logger>
+  <level>INFO</level>
+  <class>pl.waw.pduda.wedt.Parser</class>
+  <method>parseSite</method>
+  <thread>10</thread>
+  <message>Parsing - http://technologie.gazeta.pl/internet/1,104530,15181432,_Dzien_dobry_panie_Wakata__czyli_jak_kosmiczny_robot.html</message>
+</record>
+<record>
+  <date>2014-01-12T03:10:16</date>
+  <millis>1389492616972</millis>
+  <sequence>43</sequence>
+  <logger>Parser</logger>
+  <level>INFO</level>
+  <class>pl.waw.pduda.wedt.Parser</class>
+  <method>parseSite</method>
+  <thread>10</thread>
+  <message>Parsing - http://technologie.gazeta.pl/internet/1,104530,15181201,Piszac_aplikacje_na_ten_system_wreszcie_da_sie_zarobic.html</message>
+</record>
+<record>
+  <date>2014-01-12T03:10:29</date>
+  <millis>1389492629605</millis>
+  <sequence>44</sequence>
+  <logger>Parser</logger>
+  <level>INFO</level>
+  <class>pl.waw.pduda.wedt.Parser</class>
+  <method>parseSite</method>
+  <thread>10</thread>
+  <message>Parsing - http://technologie.gazeta.pl/internet/1,104530,15177513,Lepsze_niz_Google_Glass__Byc_moze__Ale_tez_duzo_drozsze.html</message>
+</record>
+<record>
+  <date>2014-01-12T03:10:39</date>
+  <millis>1389492639324</millis>
+  <sequence>45</sequence>
+  <logger>Parser</logger>
+  <level>INFO</level>
+  <class>pl.waw.pduda.wedt.Parser</class>
+  <method>parseSite</method>
+  <thread>10</thread>
+  <message>Parsing - http://technologie.gazeta.pl/internet/1,104530,15177481,Google_Street_View_rzuca_ci_wyzwanie__odnajdz_figurki.html</message>
+</record>
+<record>
+  <date>2014-01-12T03:10:50</date>
+  <millis>1389492650677</millis>
+  <sequence>46</sequence>
+  <logger>Parser</logger>
+  <level>INFO</level>
+  <class>pl.waw.pduda.wedt.Parser</class>
+  <method>parseSite</method>
+  <thread>10</thread>
+  <message>Parsing - http://technologie.gazeta.pl/internet/1,104530,15177508,Ta_decyzja_przysporzyla_Spotify_tysiace_nowych_uzytkownikow.html</message>
+</record>
+<record>
+  <date>2014-01-12T03:11:00</date>
+  <millis>1389492660825</millis>
+  <sequence>47</sequence>
+  <logger>Parser</logger>
+  <level>INFO</level>
+  <class>pl.waw.pduda.wedt.Parser</class>
+  <method>parseSite</method>
+  <thread>10</thread>
+  <message>Parsing - http://technologie.gazeta.pl/internet/1,104530,15174633,Tajemniczy_inwestor_uratuje_Winampa___AKTUALIZACJA_.html</message>
+</record>
+<record>
+  <date>2014-01-12T03:11:12</date>
+  <millis>1389492672646</millis>
+  <sequence>48</sequence>
+  <logger>Parser</logger>
+  <level>INFO</level>
+  <class>pl.waw.pduda.wedt.Parser</class>
+  <method>parse</method>
+  <thread>10</thread>
+  <message>Parser finished</message>
+</record>
+</log>
