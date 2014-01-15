@@ -1,4 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE log SYSTEM "logger.dtd">
 <log>
+<record>
+  <date>2014-01-15T21:35:36</date>
+  <millis>1389818136069</millis>
+  <sequence>0</sequence>
+  <logger>Classifier</logger>
+  <level>INFO</level>
+  <class>pl.waw.pduda.wedt.WedtClassifier</class>
+  <method>train</method>
+  <thread>10</thread>
+  <message>Start training</message>
+</record>
 </log>

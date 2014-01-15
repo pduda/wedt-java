@@ -15,49 +15,18 @@ public class TextBlock implements AttributeInterface
 	
 	private int sentences = 0;
 	private int wordsNumber=0;
-	private int stemsNumber=0;
 	private String text ="";
-	private String stemText ="";
 	private int totalWords=1;
-	private int totalStems=1;
-	private boolean useStems=false;
 		
-	public TextBlock(String text,boolean useStems)
+	public TextBlock(String text,int totalWords)
 	{
 		this.text=text;
-		this.useStems = useStems;
-		
-		
-		if(this.useStems)
-		{
-			try 
-			{
-				this.stemText();
-			} catch (IOException e) {
-				// TODO Auto-generated catch block
-				e.printStackTrace();
-			}
-		}
-		else
-		{
-			this.countWords();
-		}
-		
+		this.totalWords=totalWords;
+		this.countWords();
+
 		this.checkSentences();
 	}
-	public void setTotal(int words,int stems)
-	{
-		this.totalWords=words;
-		this.totalStems=stems;
-	}
-	public int getNumberWords()
-	{
-		return this.wordsNumber;
-	}
-	public int getNumberStems()
-	{
-		return this.stemsNumber;
-	}
+
 	private void checkSentences()
 	{
 		this.sentences = this.text.split(".").length;
@@ -66,45 +35,18 @@ public class TextBlock implements AttributeInterface
 	{
 		this.wordsNumber = this.text.split(" ").length;
 	}
-	private void stemText() throws IOException
-	{
-		PolishTextProcessor proc = new PolishTextProcessor();
-		
-		this.stemText = proc.stem(this.text, true);
-		
-		this.stemsNumber = this.stemText.split(" ").length;
-	}
+	
 	public int getSentencesRange()
 	{
 		return this.getRange(this.sentences);
 	}
-	public int getSWPercentageRange()
-	{
-		int temp = 100*(this.wordsNumber-this.stemsNumber)/(this.totalWords-this.totalStems);
-		return this.getRange(temp);
-	}
+	
 	public int getWordsPercentageRange()
 	{
 		int temp = 100*this.wordsNumber / this.totalWords;
 		return this.getRange(temp);
 	}
-	public int getStemsPercentageRange()
-	{
-		int temp = 100*this.stemsNumber /this.totalStems;
-		return this.getRange(temp);
-	}
-	public String getText()
-	{
-		return this.text;
-	}
-	public String getStemmedText()
-	{
-		return this.stemText;
-	}
-	public int getSentencesNumber()
-	{
-		return this.sentences;
-	}
+	
 	private int getRange(int value)
 	{
 		int i=0; //zakres to bedzie potega 2
@@ -122,25 +64,8 @@ public class TextBlock implements AttributeInterface
 		
 		result.add(SENTENCES+Integer.toString(this.getSentencesRange()));
 
-		if(this.useStems)
-		{
-			result.add(STEM_PERCENTAGE+Integer.toString(this.getStemsPercentageRange()));
+		result.add(WORD_PERCENTAGE+Integer.toString(this.getWordsPercentageRange()));
 			
-			result.add(STOPWORDS_PERCENTAGE+this.getSWPercentageRange());
-			
-			String [] temp_words = this.stemText.split(" ");
-			for(String temp: temp_words)
-				result.add(temp);
-		}
-		else
-		{
-			result.add(WORD_PERCENTAGE+Integer.toString(this.getWordsPercentageRange()));
-			
-			String [] temp_words = this.text.split(" ");		
-			for(String temp: temp_words)
-				result.add(temp);
-		}
-		
 		return result.toArray(new String[result.size()]);
 	}
 	

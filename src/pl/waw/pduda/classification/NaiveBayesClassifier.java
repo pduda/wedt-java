@@ -8,6 +8,7 @@ public class NaiveBayesClassifier implements ClassifierInterface,Serializable
 {
 
 	private static final long serialVersionUID = 1L;
+	private static final double MIN_PROB = 0.000000000000000001;
 	
 	private Map<String,Integer> classes; //id klasy=> ilosc klas
 	private Map<String,Double> classProb; //id klasy => pstwo
@@ -109,7 +110,7 @@ public class NaiveBayesClassifier implements ClassifierInterface,Serializable
             return 0;
 		
 		double a_wsp_b= (double) this.getAttributeOccurences(attr, c) / (double) this.getAttributeTotalOccurences(attr);
-		a_wsp_b += 1.0 /(double)this.attributes.size(); // zeby nie zerowalo
+		a_wsp_b += MIN_PROB; // zeby nie zerowalo
 		
 		return a_wsp_b / (double) this.getClassOccurences(c);
 	}

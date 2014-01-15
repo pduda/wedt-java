@@ -12,6 +12,7 @@ import org.jsoup.nodes.Element;
 import org.jsoup.nodes.Node;
 import org.jsoup.select.Elements;
 
+import pl.waw.pduda.classification.AttributeInterface;
 import pl.waw.pduda.classification.NaiveBayesClassifier;
 import pl.waw.pduda.database.Database;
 import pl.waw.pduda.files.Helper;
@@ -41,18 +42,7 @@ public class WedtClassifier
 		this.fh = new FileHandler("logs/classifier.txt");  
 		this.logger.addHandler(fh); 
 		
-		switch(mode)
-		{
-			case MODE_TEXT:
-				this.config = new ClassifierConfig(false, false, "Text");
-				break;
-			case MODE_STEM:
-				this.config = new ClassifierConfig(true, false, "Text");
-				break;				
-			default:
-				this.config = new ClassifierConfig(false, false, "Text");
-				break;
-		}
+		this.mode=mode;
 		
 	}
 	public void train() throws Exception
@@ -64,26 +54,23 @@ public class WedtClassifier
 		
 		//ResultSet urls = db.select("select * from urls limit 1");
 		ResultSet urls = db.select("select * from urls");
-		TextBlock page=null;
+		WebPage page=null;
 		while(urls.next())
     	{
 			this.logger.info("Train from url - "+ urls.getString("url"));
 			int url_id = urls.getInt("id");
-			org.jsoup.nodes.Document temp_doc = Jsoup.parse(urls.getString("page"));
-			page = this.generateBlockRepresentation(temp_doc.text());
+			page = new WebPage(urls.getString("page"),true);
 			
 			Database db2 = new Database();
 			ResultSet rs = db2.select("select * from www_blocks_parser where url_id="+url_id);
 			
-			TextBlock tempBlock=null;
+			AttributeInterface tempBlock=null;
 			while(rs.next())
 	    	{
 				String c = rs.getString("class");
-	    		org.jsoup.nodes.Document temp_block = Jsoup.parse(rs.getString("content"));
 	    		
-	    		tempBlock = this.generateBlockRepresentation(temp_block.text());
-	    		tempBlock.setTotal(page.getNumberWords(), page.getNumberStems());
-	    		
+	    		tempBlock = this.generateBlockRepresentation(rs.getString("content"),page);
+
 	    		//i tutaj uczenie klasyfikatora
 	    		
 	    		this.classifier.train(c, tempBlock.getAttributes());
@@ -95,21 +82,26 @@ public class WedtClassifier
 		
 		this.logger.info("Finished training");
 	}
-	private TextBlock generateBlockRepresentation(String text)
+	private AttributeInterface generateBlockRepresentation(String html,WebPage page) throws IOException
 	{
-		/*switch(mode)
+		org.jsoup.nodes.Document temp_block = Jsoup.parse(html);
+		
+		AttributeInterface tempBlock=null;
+		
+		switch(this.mode)
 		{
-			case MODE_TEXT:
-				this.config = new ClassifierConfig(false, false, "Text");
+			case 1://analiza tekstu
+				tempBlock = new TextBlock(temp_block.text(),page.getNumberWords());
 				break;
-			case MODE_STEM:
-				this.config = new ClassifierConfig(true, false, "Text");
-				break;				
+			case 2: //analiza stemow itp
+				tempBlock = new StemBlock(temp_block.text(),page.getNumberWords(),page.getNumberStems());
+				break;
 			default:
-				this.config = new ClassifierConfig(false, false, "Text");
+				tempBlock = new TextBlock(temp_block.text(),page.getNumberWords());
 				break;
-		}*/
-		return new TextBlock(text,false);
+		}
+		
+		return tempBlock;
 	}
 	public void saveClassifier()
 	{
@@ -130,12 +122,12 @@ public class WedtClassifier
 	public void classify(String link) throws Exception
 	{
 		String tempClass = DEFUALT_CLASS;
-		TextBlock page=null;
-		TextBlock tempBlock=null;
+		WebPage page=null;
+		AttributeInterface tempBlock=null;
 		String tempContent="";
 		
 		org.jsoup.nodes.Document doc = Jsoup.connect(link).get();
-		page = this.generateBlockRepresentation(doc.text());
+		page = new WebPage(doc.outerHtml(),true);
 		
     	Elements blocks = doc.select(Parser.BLOCKELEMENTS);
     	for(Element temp: blocks)
@@ -145,8 +137,7 @@ public class WedtClassifier
     		temp_doc.select(Parser.BLOCKELEMENTS).remove();
     		//tempContent ="<"+temp.tagName()+">"+ temp_doc.body().html() +"</"+temp.tagName()+">";
     	
-    		tempBlock = this.generateBlockRepresentation(temp_doc.text());
-    		tempBlock.setTotal(page.getNumberWords(), page.getNumberStems());
+    		tempBlock = this.generateBlockRepresentation(temp_doc.outerHtml(),page);
     		
     		tempClass = this.classifier.classify(tempBlock.getAttributes());
     		temp.attr(CLASSIFICATION_ATTRIBUTE, tempClass);

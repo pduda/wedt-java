@@ -60,20 +60,36 @@ public class Wedt
     		logger.info("Parser Error: " + e.toString());
     		System.exit(0);
     	}*/
-
-    	String link = "http://technologie.gazeta.pl/internet/1,104530,15255346,Kinomaniak_tv_oglasza___The_end____To_koniec_serwisu_.html";
+		String [] testLinks = {
+				"http://sport.wp.pl/kat,1842,title,Janowicz-jakbym-dostal-kijem-bejsbolowym,wid,16329569,wiadomosc.html"
+		};
+    	//String link = "http://antyweb.pl/czy-prawdziwa-fotografia-jeszcze-istnieje-czy-istniala-kiedykolwiek/";
     	
     	try
     	{
 	    	WedtClassifier classifier = new WedtClassifier(WedtClassifier.MODE_STEM);
 	    	
 	    	//trening
-	    	//classifier.train();
+	    	classifier.train();
 	    	//classifier.saveClassifier();
-	    	classifier.readClassifier();
+	    	//classifier.readClassifier();
+	    	//classifier.readClassifier("1_test");
+//	    	/classifier.readClassifier("2_path");
 	    	
-	    	classifier.classify(link);
-    	}
+	    	/*for(String link: testLinks)
+	    	{
+	    		classifier.classify(link);
+	    	}*/
+	    	/*Database db2 = new Database();
+			ResultSet rs = db2.select("select * from www_blocks_parser where id="+url_id);
+			
+			TextBlock tempBlock=null;
+			while(rs.next())
+	    	{
+				System.out.println(classifier.classifyText("<div></div>"));
+	    	}*/
+			//System.out.println(classifier.classifyText("<div></div>"));
+	    }
     	catch(Exception e)
     	{
     		logger.info("Classifier Error: " + e.toString());
