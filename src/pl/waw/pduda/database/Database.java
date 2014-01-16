@@ -7,9 +7,14 @@ import java.sql.SQLException;
 
 public class Database 
 {
-	static final String USER = "13777141_wedt";
+	/*static final String USER = "13777141_wedt";
 	static final String PASS = "wedt123";
 	static final String BASE = "jdbc:mysql://serwer1363634.home.pl/13777141_wedt?characterEncoding=UTF-8";
+	*/
+	static final String USER = "wedt";
+	static final String PASS = "wedt123";
+	static final String BASE = "jdbc:mysql://localhost/wedt?characterEncoding=UTF-8";
+	
 	
 	private java.sql.Connection conn = null;
 	private java.sql.Statement stmt = null;

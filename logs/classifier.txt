@@ -2,8 +2,8 @@
 <!DOCTYPE log SYSTEM "logger.dtd">
 <log>
 <record>
-  <date>2014-01-15T21:35:36</date>
-  <millis>1389818136069</millis>
+  <date>2014-01-17T00:47:38</date>
+  <millis>1389916058918</millis>
   <sequence>0</sequence>
   <logger>Classifier</logger>
   <level>INFO</level>
@@ -11,5 +11,1281 @@
   <method>train</method>
   <thread>10</thread>
   <message>Start training</message>
+</record>
+<record>
+  <date>2014-01-17T00:47:39</date>
+  <millis>1389916059165</millis>
+  <sequence>1</sequence>
+  <logger>Classifier</logger>
+  <level>INFO</level>
+  <class>pl.waw.pduda.wedt.WedtClassifier</class>
+  <method>train</method>
+  <thread>10</thread>
+  <message>Train from url - http://antyweb.pl/czy-prawdziwa-fotografia-jeszcze-istnieje-czy-istniala-kiedykolwiek/</message>
+</record>
+<record>
+  <date>2014-01-17T00:47:40</date>
+  <millis>1389916060100</millis>
+  <sequence>2</sequence>
+  <logger>Classifier</logger>
+  <level>INFO</level>
+  <class>pl.waw.pduda.wedt.WedtClassifier</class>
+  <method>train</method>
+  <thread>10</thread>
+  <message>Train from url - http://antyweb.pl/amazonfresh-drony-dronami-ale-pomidory-maja-byc-swieze/</message>
+</record>
+<record>
+  <date>2014-01-17T00:47:40</date>
+  <millis>1389916060271</millis>
+  <sequence>3</sequence>
+  <logger>Classifier</logger>
+  <level>INFO</level>
+  <class>pl.waw.pduda.wedt.WedtClassifier</class>
+  <method>train</method>
+  <thread>10</thread>
+  <message>Train from url - http://antyweb.pl/ios7-kilka-dobrych-slow-i-odrobina-krytyki-z-przykladami/</message>
+</record>
+<record>
+  <date>2014-01-17T00:47:40</date>
+  <millis>1389916060533</millis>
+  <sequence>4</sequence>
+  <logger>Classifier</logger>
+  <level>INFO</level>
+  <class>pl.waw.pduda.wedt.WedtClassifier</class>
+  <method>train</method>
+  <thread>10</thread>
+  <message>Train from url - http://antyweb.pl/zegnaj-winampie-dziekuje-ci-za-kilkanascie-lat-wspolnej-muzycznej-przygody/</message>
+</record>
+<record>
+  <date>2014-01-17T00:47:40</date>
+  <millis>1389916060879</millis>
+  <sequence>5</sequence>
+  <logger>Classifier</logger>
+  <level>INFO</level>
+  <class>pl.waw.pduda.wedt.WedtClassifier</class>
+  <method>train</method>
+  <thread>10</thread>
+  <message>Train from url - http://antyweb.pl/platformy-mobilne-niesamowicie-szybko-sie-rozwijaja-smiac-sie-czy-plakac/</message>
+</record>
+<record>
+  <date>2014-01-17T00:47:41</date>
+  <millis>1389916061045</millis>
+  <sequence>6</sequence>
+  <logger>Classifier</logger>
+  <level>INFO</level>
+  <class>pl.waw.pduda.wedt.WedtClassifier</class>
+  <method>train</method>
+  <thread>10</thread>
+  <message>Train from url - http://antyweb.pl/windows-phone-obrasta-w-piorka-2014-waznym-rokiem-dla-microsoftu/</message>
+</record>
+<record>
+  <date>2014-01-17T00:47:41</date>
+  <millis>1389916061500</millis>
+  <sequence>7</sequence>
+  <logger>Classifier</logger>
+  <level>INFO</level>
+  <class>pl.waw.pduda.wedt.WedtClassifier</class>
+  <method>train</method>
+  <thread>10</thread>
+  <message>Train from url - http://antyweb.pl/ciesze-sie-ze-jestem-geekiem-zwlaszcza-jak-patrze-na-przedswiateczne-zakupy-wszelkiej-elektroniki/</message>
+</record>
+<record>
+  <date>2014-01-17T00:47:41</date>
+  <millis>1389916061635</millis>
+  <sequence>8</sequence>
+  <logger>Classifier</logger>
+  <level>INFO</level>
+  <class>pl.waw.pduda.wedt.WedtClassifier</class>
+  <method>train</method>
+  <thread>10</thread>
+  <message>Train from url - http://antyweb.pl/to-nie-zabawka-to-droid-czyli-o-czym-snia-smartfony-bajka-z-moralem/</message>
+</record>
+<record>
+  <date>2014-01-17T00:47:41</date>
+  <millis>1389916061746</millis>
+  <sequence>9</sequence>
+  <logger>Classifier</logger>
+  <level>INFO</level>
+  <class>pl.waw.pduda.wedt.WedtClassifier</class>
+  <method>train</method>
+  <thread>10</thread>
+  <message>Train from url - http://antyweb.pl/najpopularniejsze-prezenty-swiateczne-oto-historia-z-ostatnich-50-lat/</message>
+</record>
+<record>
+  <date>2014-01-17T00:47:41</date>
+  <millis>1389916061799</millis>
+  <sequence>10</sequence>
+  <logger>Classifier</logger>
+  <level>INFO</level>
+  <class>pl.waw.pduda.wedt.WedtClassifier</class>
+  <method>train</method>
+  <thread>10</thread>
+  <message>Train from url - http://antyweb.pl/jaki-masz-smartfon-zolty/</message>
+</record>
+<record>
+  <date>2014-01-17T00:47:41</date>
+  <millis>1389916061932</millis>
+  <sequence>11</sequence>
+  <logger>Classifier</logger>
+  <level>INFO</level>
+  <class>pl.waw.pduda.wedt.WedtClassifier</class>
+  <method>train</method>
+  <thread>10</thread>
+  <message>Train from url - http://antyweb.pl/zima-to-zmora-nie-tylko-drogowcow-internauci-tez-cierpia/</message>
+</record>
+<record>
+  <date>2014-01-17T00:47:42</date>
+  <millis>1389916062060</millis>
+  <sequence>12</sequence>
+  <logger>Classifier</logger>
+  <level>INFO</level>
+  <class>pl.waw.pduda.wedt.WedtClassifier</class>
+  <method>train</method>
+  <thread>10</thread>
+  <message>Train from url - http://antyweb.pl/sukces-polskiego-projektu-neuroon-na-kickstarterze-cieszyc-sie-juz-teraz-bo-polskie-czy-jednak-poczekac/</message>
+</record>
+<record>
+  <date>2014-01-17T00:47:42</date>
+  <millis>1389916062129</millis>
+  <sequence>13</sequence>
+  <logger>Classifier</logger>
+  <level>INFO</level>
+  <class>pl.waw.pduda.wedt.WedtClassifier</class>
+  <method>train</method>
+  <thread>10</thread>
+  <message>Train from url - http://antyweb.pl/pierwszy-platek-sniegu-najpierw-spada-na-facebooka/</message>
+</record>
+<record>
+  <date>2014-01-17T00:47:42</date>
+  <millis>1389916062211</millis>
+  <sequence>14</sequence>
+  <logger>Classifier</logger>
+  <level>INFO</level>
+  <class>pl.waw.pduda.wedt.WedtClassifier</class>
+  <method>train</method>
+  <thread>10</thread>
+  <message>Train from url - http://antyweb.pl/smartfon-yotaphone-na-rynku-promocja-zajal-sie-rosyjski-premier/</message>
+</record>
+<record>
+  <date>2014-01-17T00:47:42</date>
+  <millis>1389916062247</millis>
+  <sequence>15</sequence>
+  <logger>Classifier</logger>
+  <level>INFO</level>
+  <class>pl.waw.pduda.wedt.WedtClassifier</class>
+  <method>train</method>
+  <thread>10</thread>
+  <message>Train from url - http://antyweb.pl/szanuj-swoje-lajki/</message>
+</record>
+<record>
+  <date>2014-01-17T00:47:42</date>
+  <millis>1389916062302</millis>
+  <sequence>16</sequence>
+  <logger>Classifier</logger>
+  <level>INFO</level>
+  <class>pl.waw.pduda.wedt.WedtClassifier</class>
+  <method>train</method>
+  <thread>10</thread>
+  <message>Train from url - http://antyweb.pl/co-jest-i-pozostanie-lepszym-wyborem-dla-graczy-pc-czy-xbox-one-i-ps4/</message>
+</record>
+<record>
+  <date>2014-01-17T00:47:42</date>
+  <millis>1389916062433</millis>
+  <sequence>17</sequence>
+  <logger>Classifier</logger>
+  <level>INFO</level>
+  <class>pl.waw.pduda.wedt.WedtClassifier</class>
+  <method>train</method>
+  <thread>10</thread>
+  <message>Train from url - http://antyweb.pl/porzuc-papier-wchodzac-w-2014-rok-oto-5-krokow/</message>
+</record>
+<record>
+  <date>2014-01-17T00:47:42</date>
+  <millis>1389916062479</millis>
+  <sequence>18</sequence>
+  <logger>Classifier</logger>
+  <level>INFO</level>
+  <class>pl.waw.pduda.wedt.WedtClassifier</class>
+  <method>train</method>
+  <thread>10</thread>
+  <message>Train from url - http://antyweb.pl/pomodoro-czyli-system-zarzadzania-czasem-ktory-dziala/</message>
+</record>
+<record>
+  <date>2014-01-17T00:47:42</date>
+  <millis>1389916062520</millis>
+  <sequence>19</sequence>
+  <logger>Classifier</logger>
+  <level>INFO</level>
+  <class>pl.waw.pduda.wedt.WedtClassifier</class>
+  <method>train</method>
+  <thread>10</thread>
+  <message>Train from url - http://antyweb.pl/jestem-zmeczony-cyfrowa-dystrybucja-tandety/</message>
+</record>
+<record>
+  <date>2014-01-17T00:47:42</date>
+  <millis>1389916062601</millis>
+  <sequence>20</sequence>
+  <logger>Classifier</logger>
+  <level>INFO</level>
+  <class>pl.waw.pduda.wedt.WedtClassifier</class>
+  <method>train</method>
+  <thread>10</thread>
+  <message>Train from url - http://antyweb.pl/nowe-technologie-kreca-wszystkich-wniosek-z-kolacji-w-rodzinnym-gronie/</message>
+</record>
+<record>
+  <date>2014-01-17T00:47:42</date>
+  <millis>1389916062639</millis>
+  <sequence>21</sequence>
+  <logger>Classifier</logger>
+  <level>INFO</level>
+  <class>pl.waw.pduda.wedt.WedtClassifier</class>
+  <method>train</method>
+  <thread>10</thread>
+  <message>Train from url - http://antyweb.pl/google-flirtuje-z-ciemna-strona/</message>
+</record>
+<record>
+  <date>2014-01-17T00:47:42</date>
+  <millis>1389916062754</millis>
+  <sequence>22</sequence>
+  <logger>Classifier</logger>
+  <level>INFO</level>
+  <class>pl.waw.pduda.wedt.WedtClassifier</class>
+  <method>train</method>
+  <thread>10</thread>
+  <message>Train from url - http://antyweb.pl/jak-umowic-na-randke-gitare-i-powietrznego-macbooka/</message>
+</record>
+<record>
+  <date>2014-01-17T00:47:42</date>
+  <millis>1389916062810</millis>
+  <sequence>23</sequence>
+  <logger>Classifier</logger>
+  <level>INFO</level>
+  <class>pl.waw.pduda.wedt.WedtClassifier</class>
+  <method>train</method>
+  <thread>10</thread>
+  <message>Train from url - http://antyweb.pl/uzytkownicy-youtubea-zadaja-ciezarowek-coca-coli-bez-nich-to-nie-swieta/</message>
+</record>
+<record>
+  <date>2014-01-17T00:47:42</date>
+  <millis>1389916062860</millis>
+  <sequence>24</sequence>
+  <logger>Classifier</logger>
+  <level>INFO</level>
+  <class>pl.waw.pduda.wedt.WedtClassifier</class>
+  <method>train</method>
+  <thread>10</thread>
+  <message>Train from url - http://antyweb.pl/zamienniki-oficjalnych-aplikacji-czemu-lepiej-unikac-i-czemu-czasem-jednak-z-nich-korzystamy/</message>
+</record>
+<record>
+  <date>2014-01-17T00:47:42</date>
+  <millis>1389916062956</millis>
+  <sequence>25</sequence>
+  <logger>Classifier</logger>
+  <level>INFO</level>
+  <class>pl.waw.pduda.wedt.WedtClassifier</class>
+  <method>train</method>
+  <thread>10</thread>
+  <message>Train from url - http://antyweb.pl/zaplac-by-nie-placic-nowy-startup-zarabia-na-polskich-grzeszkach/</message>
+</record>
+<record>
+  <date>2014-01-17T00:47:43</date>
+  <millis>1389916063005</millis>
+  <sequence>26</sequence>
+  <logger>Classifier</logger>
+  <level>INFO</level>
+  <class>pl.waw.pduda.wedt.WedtClassifier</class>
+  <method>train</method>
+  <thread>10</thread>
+  <message>Train from url - http://antyweb.pl/przede-mna-kolejny-rok-z-itunes-match/</message>
+</record>
+<record>
+  <date>2014-01-17T00:47:43</date>
+  <millis>1389916063042</millis>
+  <sequence>27</sequence>
+  <logger>Classifier</logger>
+  <level>INFO</level>
+  <class>pl.waw.pduda.wedt.WedtClassifier</class>
+  <method>train</method>
+  <thread>10</thread>
+  <message>Train from url - http://antyweb.pl/czemu-nie-lubimy-windows-8/</message>
+</record>
+<record>
+  <date>2014-01-17T00:47:43</date>
+  <millis>1389916063161</millis>
+  <sequence>28</sequence>
+  <logger>Classifier</logger>
+  <level>INFO</level>
+  <class>pl.waw.pduda.wedt.WedtClassifier</class>
+  <method>train</method>
+  <thread>10</thread>
+  <message>Train from url - http://antyweb.pl/chromecast-czy-wiedziales-ze-go-masz/</message>
+</record>
+<record>
+  <date>2014-01-17T00:47:43</date>
+  <millis>1389916063201</millis>
+  <sequence>29</sequence>
+  <logger>Classifier</logger>
+  <level>INFO</level>
+  <class>pl.waw.pduda.wedt.WedtClassifier</class>
+  <method>train</method>
+  <thread>10</thread>
+  <message>Train from url - http://antyweb.pl/internet-czyli-czasopozeracz/</message>
+</record>
+<record>
+  <date>2014-01-17T00:47:43</date>
+  <millis>1389916063240</millis>
+  <sequence>30</sequence>
+  <logger>Classifier</logger>
+  <level>INFO</level>
+  <class>pl.waw.pduda.wedt.WedtClassifier</class>
+  <method>train</method>
+  <thread>10</thread>
+  <message>Train from url - http://antyweb.pl/wykop-pl-niedoceniany-fenomen-polskiego-internetu/</message>
+</record>
+<record>
+  <date>2014-01-17T00:47:43</date>
+  <millis>1389916063303</millis>
+  <sequence>31</sequence>
+  <logger>Classifier</logger>
+  <level>INFO</level>
+  <class>pl.waw.pduda.wedt.WedtClassifier</class>
+  <method>train</method>
+  <thread>10</thread>
+  <message>Train from url - http://antyweb.pl/smartwatch-rewolucja-dopiero-w-drodze/</message>
+</record>
+<record>
+  <date>2014-01-17T00:47:43</date>
+  <millis>1389916063355</millis>
+  <sequence>32</sequence>
+  <logger>Classifier</logger>
+  <level>INFO</level>
+  <class>pl.waw.pduda.wedt.WedtClassifier</class>
+  <method>train</method>
+  <thread>10</thread>
+  <message>Train from url - http://antyweb.pl/czy-tak-wygladac-bedzie-nasza-przyszlosc/</message>
+</record>
+<record>
+  <date>2014-01-17T00:47:43</date>
+  <millis>1389916063399</millis>
+  <sequence>33</sequence>
+  <logger>Classifier</logger>
+  <level>INFO</level>
+  <class>pl.waw.pduda.wedt.WedtClassifier</class>
+  <method>train</method>
+  <thread>10</thread>
+  <message>Train from url - http://antyweb.pl/jeden-celebryta-ginie-ale-szybko-pojawia-sie-drugi-oto-moc-internetu/</message>
+</record>
+<record>
+  <date>2014-01-17T00:47:43</date>
+  <millis>1389916063445</millis>
+  <sequence>34</sequence>
+  <logger>Classifier</logger>
+  <level>INFO</level>
+  <class>pl.waw.pduda.wedt.WedtClassifier</class>
+  <method>train</method>
+  <thread>10</thread>
+  <message>Train from url - http://antyweb.pl/awaria-banku-sieci-komorkowej-cieplowni-a-teraz-to-zsumujmy-apokalipsa/</message>
+</record>
+<record>
+  <date>2014-01-17T00:47:43</date>
+  <millis>1389916063484</millis>
+  <sequence>35</sequence>
+  <logger>Classifier</logger>
+  <level>INFO</level>
+  <class>pl.waw.pduda.wedt.WedtClassifier</class>
+  <method>train</method>
+  <thread>10</thread>
+  <message>Train from url - http://antyweb.pl/dyskietki-w-kopercie-czyli-zawod-swapper/</message>
+</record>
+<record>
+  <date>2014-01-17T00:47:43</date>
+  <millis>1389916063540</millis>
+  <sequence>36</sequence>
+  <logger>Classifier</logger>
+  <level>INFO</level>
+  <class>pl.waw.pduda.wedt.WedtClassifier</class>
+  <method>train</method>
+  <thread>10</thread>
+  <message>Train from url - http://antyweb.pl/majdan-cycki-pap-i-misja-na-marsa/</message>
+</record>
+<record>
+  <date>2014-01-17T00:47:43</date>
+  <millis>1389916063585</millis>
+  <sequence>37</sequence>
+  <logger>Classifier</logger>
+  <level>INFO</level>
+  <class>pl.waw.pduda.wedt.WedtClassifier</class>
+  <method>train</method>
+  <thread>10</thread>
+  <message>Train from url - http://antyweb.pl/dawno-dawno-temu-czyli-skad-masz-aparat-w-telefonie/</message>
+</record>
+<record>
+  <date>2014-01-17T00:47:43</date>
+  <millis>1389916063629</millis>
+  <sequence>38</sequence>
+  <logger>Classifier</logger>
+  <level>INFO</level>
+  <class>pl.waw.pduda.wedt.WedtClassifier</class>
+  <method>train</method>
+  <thread>10</thread>
+  <message>Train from url - http://antyweb.pl/co-sie-dzieje-z-blizzardem/</message>
+</record>
+<record>
+  <date>2014-01-17T00:47:43</date>
+  <millis>1389916063703</millis>
+  <sequence>39</sequence>
+  <logger>Classifier</logger>
+  <level>INFO</level>
+  <class>pl.waw.pduda.wedt.WedtClassifier</class>
+  <method>train</method>
+  <thread>10</thread>
+  <message>Train from url - http://antyweb.pl/o-rosyjskich-niedzwiedziach-ludzkiej-pamieci-i-google-slow-kilka/</message>
+</record>
+<record>
+  <date>2014-01-17T00:47:43</date>
+  <millis>1389916063739</millis>
+  <sequence>40</sequence>
+  <logger>Classifier</logger>
+  <level>INFO</level>
+  <class>pl.waw.pduda.wedt.WedtClassifier</class>
+  <method>train</method>
+  <thread>10</thread>
+  <message>Train from url - http://antyweb.pl/od-przybytku-glowa-boli-czyli-przeklenstwo-smerfow/</message>
+</record>
+<record>
+  <date>2014-01-17T00:47:43</date>
+  <millis>1389916063785</millis>
+  <sequence>41</sequence>
+  <logger>Classifier</logger>
+  <level>INFO</level>
+  <class>pl.waw.pduda.wedt.WedtClassifier</class>
+  <method>train</method>
+  <thread>10</thread>
+  <message>Train from url - http://antyweb.pl/ipad-air-swietny-ale-w-zupelnosci-wystarczy-mi-trojka/</message>
+</record>
+<record>
+  <date>2014-01-17T00:47:43</date>
+  <millis>1389916063854</millis>
+  <sequence>42</sequence>
+  <logger>Classifier</logger>
+  <level>INFO</level>
+  <class>pl.waw.pduda.wedt.WedtClassifier</class>
+  <method>train</method>
+  <thread>10</thread>
+  <message>Train from url - http://antyweb.pl/sprzedalem-7-calowy-tablet-a-od-10-calowego-wymagam-wiecej/</message>
+</record>
+<record>
+  <date>2014-01-17T00:47:43</date>
+  <millis>1389916063928</millis>
+  <sequence>43</sequence>
+  <logger>Classifier</logger>
+  <level>INFO</level>
+  <class>pl.waw.pduda.wedt.WedtClassifier</class>
+  <method>train</method>
+  <thread>10</thread>
+  <message>Train from url - http://antyweb.pl/drogie-spotify-mam-na-imie-pawel-od-kilku-miesiecy-codziennie-uzywam-waszej-uslugi/</message>
+</record>
+<record>
+  <date>2014-01-17T00:47:44</date>
+  <millis>1389916064016</millis>
+  <sequence>44</sequence>
+  <logger>Classifier</logger>
+  <level>INFO</level>
+  <class>pl.waw.pduda.wedt.WedtClassifier</class>
+  <method>train</method>
+  <thread>10</thread>
+  <message>Train from url - http://antyweb.pl/kamil-mam-nadzieje-ze-napedy-optyczne-nie-znikna/</message>
+</record>
+<record>
+  <date>2014-01-17T00:47:44</date>
+  <millis>1389916064068</millis>
+  <sequence>45</sequence>
+  <logger>Classifier</logger>
+  <level>INFO</level>
+  <class>pl.waw.pduda.wedt.WedtClassifier</class>
+  <method>train</method>
+  <thread>10</thread>
+  <message>Train from url - http://antyweb.pl/branza-nowych-technologii-czyli-czyli-co/</message>
+</record>
+<record>
+  <date>2014-01-17T00:47:44</date>
+  <millis>1389916064132</millis>
+  <sequence>46</sequence>
+  <logger>Classifier</logger>
+  <level>INFO</level>
+  <class>pl.waw.pduda.wedt.WedtClassifier</class>
+  <method>train</method>
+  <thread>10</thread>
+  <message>Train from url - http://antyweb.pl/kopiujwklej-czyli-internet-w-sluzbie-dziennikarzy-i-naukowcow/</message>
+</record>
+<record>
+  <date>2014-01-17T00:47:44</date>
+  <millis>1389916064270</millis>
+  <sequence>47</sequence>
+  <logger>Classifier</logger>
+  <level>INFO</level>
+  <class>pl.waw.pduda.wedt.WedtClassifier</class>
+  <method>train</method>
+  <thread>10</thread>
+  <message>Train from url - http://antyweb.pl/dzialamy-szybko-i-intensywnie-ale-chyba-czas-zwolnic/</message>
+</record>
+<record>
+  <date>2014-01-17T00:47:44</date>
+  <millis>1389916064336</millis>
+  <sequence>48</sequence>
+  <logger>Classifier</logger>
+  <level>INFO</level>
+  <class>pl.waw.pduda.wedt.WedtClassifier</class>
+  <method>train</method>
+  <thread>10</thread>
+  <message>Train from url - http://antyweb.pl/publikujcie-wiecej-zdjec-dzieci-na-facebooku/</message>
+</record>
+<record>
+  <date>2014-01-17T00:47:44</date>
+  <millis>1389916064410</millis>
+  <sequence>49</sequence>
+  <logger>Classifier</logger>
+  <level>INFO</level>
+  <class>pl.waw.pduda.wedt.WedtClassifier</class>
+  <method>train</method>
+  <thread>10</thread>
+  <message>Train from url - http://antyweb.pl/kiedys-kupowalem-jak-najwiecej-mozliwosci-za-jak-najmniejsza-cene-teraz-wybieram-ograniczone-produkty-precyzyjnie-pod-swoje-potrzeby/</message>
+</record>
+<record>
+  <date>2014-01-17T00:47:44</date>
+  <millis>1389916064516</millis>
+  <sequence>50</sequence>
+  <logger>Classifier</logger>
+  <level>INFO</level>
+  <class>pl.waw.pduda.wedt.WedtClassifier</class>
+  <method>train</method>
+  <thread>10</thread>
+  <message>Train from url - http://antyweb.pl/czarny-piatek-w-polsce-nie-robmy-sobie-tego/</message>
+</record>
+<record>
+  <date>2014-01-17T00:47:44</date>
+  <millis>1389916064560</millis>
+  <sequence>51</sequence>
+  <logger>Classifier</logger>
+  <level>INFO</level>
+  <class>pl.waw.pduda.wedt.WedtClassifier</class>
+  <method>train</method>
+  <thread>10</thread>
+  <message>Train from url - http://antyweb.pl/zlosliwosc-rzeczy-martwych/</message>
+</record>
+<record>
+  <date>2014-01-17T00:47:44</date>
+  <millis>1389916064595</millis>
+  <sequence>52</sequence>
+  <logger>Classifier</logger>
+  <level>INFO</level>
+  <class>pl.waw.pduda.wedt.WedtClassifier</class>
+  <method>train</method>
+  <thread>10</thread>
+  <message>Train from url - http://antyweb.pl/bitcoin-waluta-wolnych-ludzi/</message>
+</record>
+<record>
+  <date>2014-01-17T00:47:44</date>
+  <millis>1389916064666</millis>
+  <sequence>53</sequence>
+  <logger>Classifier</logger>
+  <level>INFO</level>
+  <class>pl.waw.pduda.wedt.WedtClassifier</class>
+  <method>train</method>
+  <thread>10</thread>
+  <message>Train from url - http://antyweb.pl/producenci-wykreowali-tyle-sztucznych-potrzeb-ze-czuje-sie-jak-czlowiek-z-poprzedniej-epoki-mam-swietnego-smartfona-ale-chce-miec-lepszego/</message>
+</record>
+<record>
+  <date>2014-01-17T00:47:44</date>
+  <millis>1389916064711</millis>
+  <sequence>54</sequence>
+  <logger>Classifier</logger>
+  <level>INFO</level>
+  <class>pl.waw.pduda.wedt.WedtClassifier</class>
+  <method>train</method>
+  <thread>10</thread>
+  <message>Train from url - http://antyweb.pl/targi-czy-jarmark-jak-wygladaja-polskie-imprezy-branzy-gier/</message>
+</record>
+<record>
+  <date>2014-01-17T00:47:44</date>
+  <millis>1389916064744</millis>
+  <sequence>55</sequence>
+  <logger>Classifier</logger>
+  <level>INFO</level>
+  <class>pl.waw.pduda.wedt.WedtClassifier</class>
+  <method>train</method>
+  <thread>10</thread>
+  <message>Train from url - http://antyweb.pl/internet-mnie-przerosl/</message>
+</record>
+<record>
+  <date>2014-01-17T00:47:44</date>
+  <millis>1389916064782</millis>
+  <sequence>56</sequence>
+  <logger>Classifier</logger>
+  <level>INFO</level>
+  <class>pl.waw.pduda.wedt.WedtClassifier</class>
+  <method>train</method>
+  <thread>10</thread>
+  <message>Train from url - http://technologie.gazeta.pl/internet/1,104530,15237044,CES_2014__Szef_amerykanskiego_T_Mobile_wyproszony.html</message>
+</record>
+<record>
+  <date>2014-01-17T00:47:44</date>
+  <millis>1389916064811</millis>
+  <sequence>57</sequence>
+  <logger>Classifier</logger>
+  <level>INFO</level>
+  <class>pl.waw.pduda.wedt.WedtClassifier</class>
+  <method>train</method>
+  <thread>10</thread>
+  <message>Train from url - http://technologie.gazeta.pl/internet/1,113841,15236515,CES_2014__LG_G_Flex___smartfon__ktory_sam_sie_leczy.html</message>
+</record>
+<record>
+  <date>2014-01-17T00:47:44</date>
+  <millis>1389916064845</millis>
+  <sequence>58</sequence>
+  <logger>Classifier</logger>
+  <level>INFO</level>
+  <class>pl.waw.pduda.wedt.WedtClassifier</class>
+  <method>train</method>
+  <thread>10</thread>
+  <message>Train from url - http://technologie.gazeta.pl/internet/1,104530,15233958,CES_2014__Pomiedzy_Apple_a_Google_rozpoczela_sie_wojna.html</message>
+</record>
+<record>
+  <date>2014-01-17T00:47:44</date>
+  <millis>1389916064874</millis>
+  <sequence>59</sequence>
+  <logger>Classifier</logger>
+  <level>INFO</level>
+  <class>pl.waw.pduda.wedt.WedtClassifier</class>
+  <method>train</method>
+  <thread>10</thread>
+  <message>Train from url - http://technologie.gazeta.pl/internet/1,104530,15233924,CES_2014__Intel_pokazuje__jak_ma_wygladac_swiat__w.html</message>
+</record>
+<record>
+  <date>2014-01-17T00:47:44</date>
+  <millis>1389916064905</millis>
+  <sequence>60</sequence>
+  <logger>Classifier</logger>
+  <level>INFO</level>
+  <class>pl.waw.pduda.wedt.WedtClassifier</class>
+  <method>train</method>
+  <thread>10</thread>
+  <message>Train from url - http://technologie.gazeta.pl/internet/1,104530,15233266,CES_2014__Koniec_marki_McAfee__Intel_ma_dosc.html</message>
+</record>
+<record>
+  <date>2014-01-17T00:47:44</date>
+  <millis>1389916064933</millis>
+  <sequence>61</sequence>
+  <logger>Classifier</logger>
+  <level>INFO</level>
+  <class>pl.waw.pduda.wedt.WedtClassifier</class>
+  <method>train</method>
+  <thread>10</thread>
+  <message>Train from url - http://technologie.gazeta.pl/internet/1,104530,15231640,CES_2014__Michael_Bay__rezyser__Transformers___tlumaczy.html</message>
+</record>
+<record>
+  <date>2014-01-17T00:47:44</date>
+  <millis>1389916064956</millis>
+  <sequence>62</sequence>
+  <logger>Classifier</logger>
+  <level>INFO</level>
+  <class>pl.waw.pduda.wedt.WedtClassifier</class>
+  <method>train</method>
+  <thread>10</thread>
+  <message>Train from url - http://technologie.gazeta.pl/internet/1,104530,15231474,CES_2014__Sony_miniaturyzuje_urzadzenia_i_zwieksza.html</message>
+</record>
+<record>
+  <date>2014-01-17T00:47:44</date>
+  <millis>1389916064980</millis>
+  <sequence>63</sequence>
+  <logger>Classifier</logger>
+  <level>INFO</level>
+  <class>pl.waw.pduda.wedt.WedtClassifier</class>
+  <method>train</method>
+  <thread>10</thread>
+  <message>Train from url - http://technologie.gazeta.pl/internet/1,104530,15230834,CES_2014__Samsung_zaskakuje_nowymi_tabletami__prezentuje.html</message>
+</record>
+<record>
+  <date>2014-01-17T00:47:45</date>
+  <millis>1389916065030</millis>
+  <sequence>64</sequence>
+  <logger>Classifier</logger>
+  <level>INFO</level>
+  <class>pl.waw.pduda.wedt.WedtClassifier</class>
+  <method>train</method>
+  <thread>10</thread>
+  <message>Train from url - http://technologie.gazeta.pl/internet/1,104530,15230452,CES_2014__LG_zapowiada_aplikacje__ktora_moze_rozpoczac.html</message>
+</record>
+<record>
+  <date>2014-01-17T00:47:45</date>
+  <millis>1389916065058</millis>
+  <sequence>65</sequence>
+  <logger>Classifier</logger>
+  <level>INFO</level>
+  <class>pl.waw.pduda.wedt.WedtClassifier</class>
+  <method>train</method>
+  <thread>10</thread>
+  <message>Train from url - http://technologie.gazeta.pl/internet/1,104530,15227396,Targi_CES_2014_jeszcze_na_dobre_sie_nie_zaczely__ale.html</message>
+</record>
+<record>
+  <date>2014-01-17T00:47:45</date>
+  <millis>1389916065087</millis>
+  <sequence>66</sequence>
+  <logger>Classifier</logger>
+  <level>INFO</level>
+  <class>pl.waw.pduda.wedt.WedtClassifier</class>
+  <method>train</method>
+  <thread>10</thread>
+  <message>Train from url - http://technologie.gazeta.pl/internet/56,104665,15083521,5_najwazniejszych_miejsc_w_Microsofcie___relacja_z.html</message>
+</record>
+<record>
+  <date>2014-01-17T00:47:45</date>
+  <millis>1389916065110</millis>
+  <sequence>67</sequence>
+  <logger>Classifier</logger>
+  <level>INFO</level>
+  <class>pl.waw.pduda.wedt.WedtClassifier</class>
+  <method>train</method>
+  <thread>10</thread>
+  <message>Train from url - http://technologie.gazeta.pl/internet/1,104530,15223866,Mark_Zuckerberg_w_koncu_sie_doigra__Kolejny_pozew_.html</message>
+</record>
+<record>
+  <date>2014-01-17T00:47:45</date>
+  <millis>1389916065151</millis>
+  <sequence>68</sequence>
+  <logger>Classifier</logger>
+  <level>INFO</level>
+  <class>pl.waw.pduda.wedt.WedtClassifier</class>
+  <method>train</method>
+  <thread>10</thread>
+  <message>Train from url - http://technologie.gazeta.pl/internet/1,104530,15223193,Mistrzostwa_swiata_w_pilce_noznej_rozpocznie____cyborg_.html</message>
+</record>
+<record>
+  <date>2014-01-17T00:47:45</date>
+  <millis>1389916065178</millis>
+  <sequence>69</sequence>
+  <logger>Classifier</logger>
+  <level>INFO</level>
+  <class>pl.waw.pduda.wedt.WedtClassifier</class>
+  <method>train</method>
+  <thread>10</thread>
+  <message>Train from url - http://technologie.gazeta.pl/internet/1,104530,15221965,O_czym_jest_najstarszy_mail_w_twojej_skrzynce_pocztowej_.html</message>
+</record>
+<record>
+  <date>2014-01-17T00:47:45</date>
+  <millis>1389916065213</millis>
+  <sequence>70</sequence>
+  <logger>Classifier</logger>
+  <level>INFO</level>
+  <class>pl.waw.pduda.wedt.WedtClassifier</class>
+  <method>train</method>
+  <thread>10</thread>
+  <message>Train from url - http://technologie.gazeta.pl/internet/1,104665,15222032,Obozy_zaglady_na_Facebooku__czyli_trudna_bitwa_z_mowa.html</message>
+</record>
+<record>
+  <date>2014-01-17T00:47:45</date>
+  <millis>1389916065247</millis>
+  <sequence>71</sequence>
+  <logger>Classifier</logger>
+  <level>INFO</level>
+  <class>pl.waw.pduda.wedt.WedtClassifier</class>
+  <method>train</method>
+  <thread>10</thread>
+  <message>Train from url - http://technologie.gazeta.pl/internet/1,113842,15218447,Polaroid_chce_wprowadzic_tanie_telewizory_4K_Ultra.html</message>
+</record>
+<record>
+  <date>2014-01-17T00:47:45</date>
+  <millis>1389916065284</millis>
+  <sequence>72</sequence>
+  <logger>Classifier</logger>
+  <level>INFO</level>
+  <class>pl.waw.pduda.wedt.WedtClassifier</class>
+  <method>train</method>
+  <thread>10</thread>
+  <message>Train from url - http://technologie.gazeta.pl/internet/56,104663,15214408,Mialy_latac__a_plywaly__Dramatyczne__pechowe_i_szczesliwe.html</message>
+</record>
+<record>
+  <date>2014-01-17T00:47:45</date>
+  <millis>1389916065301</millis>
+  <sequence>73</sequence>
+  <logger>Classifier</logger>
+  <level>INFO</level>
+  <class>pl.waw.pduda.wedt.WedtClassifier</class>
+  <method>train</method>
+  <thread>10</thread>
+  <message>Train from url - http://technologie.gazeta.pl/internet/1,104530,15218295,Android_moze_miec_80__udzialu_w_rynku__ale_te_liczby.html</message>
+</record>
+<record>
+  <date>2014-01-17T00:47:45</date>
+  <millis>1389916065327</millis>
+  <sequence>74</sequence>
+  <logger>Classifier</logger>
+  <level>INFO</level>
+  <class>pl.waw.pduda.wedt.WedtClassifier</class>
+  <method>train</method>
+  <thread>10</thread>
+  <message>Train from url - http://technologie.gazeta.pl/internet/1,104530,15217614,Jak_zatrzec_slady_swojej_aktywnosci_na_Facebooku_.html</message>
+</record>
+<record>
+  <date>2014-01-17T00:47:45</date>
+  <millis>1389916065354</millis>
+  <sequence>75</sequence>
+  <logger>Classifier</logger>
+  <level>INFO</level>
+  <class>pl.waw.pduda.wedt.WedtClassifier</class>
+  <method>train</method>
+  <thread>10</thread>
+  <message>Train from url - http://technologie.gazeta.pl/internet/1,104530,15217343,Czy_w_2013_roku_kupowales_elektronike_rozsadnie__Sprawdzilismy_.html</message>
+</record>
+<record>
+  <date>2014-01-17T00:47:45</date>
+  <millis>1389916065384</millis>
+  <sequence>76</sequence>
+  <logger>Classifier</logger>
+  <level>INFO</level>
+  <class>pl.waw.pduda.wedt.WedtClassifier</class>
+  <method>train</method>
+  <thread>10</thread>
+  <message>Train from url - http://technologie.gazeta.pl/internet/1,104530,15216682,Promocje_z_marketow_i_sklepow_internetowych_02_01_2014.html</message>
+</record>
+<record>
+  <date>2014-01-17T00:47:45</date>
+  <millis>1389916065406</millis>
+  <sequence>77</sequence>
+  <logger>Classifier</logger>
+  <level>INFO</level>
+  <class>pl.waw.pduda.wedt.WedtClassifier</class>
+  <method>train</method>
+  <thread>10</thread>
+  <message>Train from url - http://technologie.gazeta.pl/internet/1,113841,15215700,Poczta_Polska_zaczyna_dostrzegac_mozliwosci_smartfonow.html</message>
+</record>
+<record>
+  <date>2014-01-17T00:47:45</date>
+  <millis>1389916065428</millis>
+  <sequence>78</sequence>
+  <logger>Classifier</logger>
+  <level>INFO</level>
+  <class>pl.waw.pduda.wedt.WedtClassifier</class>
+  <method>train</method>
+  <thread>10</thread>
+  <message>Train from url - http://technologie.gazeta.pl/internet/1,104530,15214279,Google_Glass_wciaz_budza_skrajne_emocje.html</message>
+</record>
+<record>
+  <date>2014-01-17T00:47:45</date>
+  <millis>1389916065457</millis>
+  <sequence>79</sequence>
+  <logger>Classifier</logger>
+  <level>INFO</level>
+  <class>pl.waw.pduda.wedt.WedtClassifier</class>
+  <method>train</method>
+  <thread>10</thread>
+  <message>Train from url - http://technologie.gazeta.pl/internet/1,104530,15212823,W_1964_Isaac_Asimov_i_Arthur_C__Clarke_przewidzieli.html</message>
+</record>
+<record>
+  <date>2014-01-17T00:47:45</date>
+  <millis>1389916065493</millis>
+  <sequence>80</sequence>
+  <logger>Classifier</logger>
+  <level>INFO</level>
+  <class>pl.waw.pduda.wedt.WedtClassifier</class>
+  <method>train</method>
+  <thread>10</thread>
+  <message>Train from url - http://technologie.gazeta.pl/internet/1,104530,15212286,Odwieczni_rywale_partnerami__Windows_Phone_w_smartfonach.html</message>
+</record>
+<record>
+  <date>2014-01-17T00:47:45</date>
+  <millis>1389916065519</millis>
+  <sequence>81</sequence>
+  <logger>Classifier</logger>
+  <level>INFO</level>
+  <class>pl.waw.pduda.wedt.WedtClassifier</class>
+  <method>train</method>
+  <thread>10</thread>
+  <message>Train from url - http://technologie.gazeta.pl/internet/1,113841,15206577,Samsung_Galaxy_S5_moze_byc_najmocniejszym_smartfonem.html</message>
+</record>
+<record>
+  <date>2014-01-17T00:47:45</date>
+  <millis>1389916065544</millis>
+  <sequence>82</sequence>
+  <logger>Classifier</logger>
+  <level>INFO</level>
+  <class>pl.waw.pduda.wedt.WedtClassifier</class>
+  <method>train</method>
+  <thread>10</thread>
+  <message>Train from url - http://technologie.gazeta.pl/internet/1,104530,15205915,Tak_Samsung_wyobraza_sobie_przyszlosc__Co_sadzicie.html</message>
+</record>
+<record>
+  <date>2014-01-17T00:47:45</date>
+  <millis>1389916065582</millis>
+  <sequence>83</sequence>
+  <logger>Classifier</logger>
+  <level>INFO</level>
+  <class>pl.waw.pduda.wedt.WedtClassifier</class>
+  <method>train</method>
+  <thread>10</thread>
+  <message>Train from url - http://technologie.gazeta.pl/internet/1,104530,15204514,Na_Facebooku_wykorzystuja_tragedie_Schumachera.html</message>
+</record>
+<record>
+  <date>2014-01-17T00:47:45</date>
+  <millis>1389916065618</millis>
+  <sequence>84</sequence>
+  <logger>Classifier</logger>
+  <level>INFO</level>
+  <class>pl.waw.pduda.wedt.WedtClassifier</class>
+  <method>train</method>
+  <thread>10</thread>
+  <message>Train from url - http://technologie.gazeta.pl/internet/1,104530,15205029,Kolejna_wojna_z_Apple_na_horyzoncie__Android_trafi.html</message>
+</record>
+<record>
+  <date>2014-01-17T00:47:45</date>
+  <millis>1389916065639</millis>
+  <sequence>85</sequence>
+  <logger>Classifier</logger>
+  <level>INFO</level>
+  <class>pl.waw.pduda.wedt.WedtClassifier</class>
+  <method>train</method>
+  <thread>10</thread>
+  <message>Train from url - http://technologie.gazeta.pl/internet/1,113840,15205016,Sylwester_w_Google_Doodle_w_stylu_disco.html</message>
+</record>
+<record>
+  <date>2014-01-17T00:47:45</date>
+  <millis>1389916065659</millis>
+  <sequence>86</sequence>
+  <logger>Classifier</logger>
+  <level>INFO</level>
+  <class>pl.waw.pduda.wedt.WedtClassifier</class>
+  <method>train</method>
+  <thread>10</thread>
+  <message>Train from url - http://technologie.gazeta.pl/internet/1,113840,15202781,Kupiles_komputer__Mozliwe__ze_NSA_juz_tam_jest.html</message>
+</record>
+<record>
+  <date>2014-01-17T00:47:45</date>
+  <millis>1389916065686</millis>
+  <sequence>87</sequence>
+  <logger>Classifier</logger>
+  <level>INFO</level>
+  <class>pl.waw.pduda.wedt.WedtClassifier</class>
+  <method>train</method>
+  <thread>10</thread>
+  <message>Train from url - http://technologie.gazeta.pl/internet/1,104530,15200235,_Opinia_publiczna_musi_to_wiedziec_o_dronach_.html</message>
+</record>
+<record>
+  <date>2014-01-17T00:47:45</date>
+  <millis>1389916065712</millis>
+  <sequence>88</sequence>
+  <logger>Classifier</logger>
+  <level>INFO</level>
+  <class>pl.waw.pduda.wedt.WedtClassifier</class>
+  <method>train</method>
+  <thread>10</thread>
+  <message>Train from url - http://technologie.gazeta.pl/internet/1,104530,15200829,Bedziesz_zdziwiony_jak_blisko_jest_wielka_przemiana.html</message>
+</record>
+<record>
+  <date>2014-01-17T00:47:45</date>
+  <millis>1389916065738</millis>
+  <sequence>89</sequence>
+  <logger>Classifier</logger>
+  <level>INFO</level>
+  <class>pl.waw.pduda.wedt.WedtClassifier</class>
+  <method>train</method>
+  <thread>10</thread>
+  <message>Train from url - http://technologie.gazeta.pl/internet/1,104530,15200180,Jak_obrabowac_bankomat__Wystarczy_pendrive__scyzoryk.html</message>
+</record>
+<record>
+  <date>2014-01-17T00:47:45</date>
+  <millis>1389916065767</millis>
+  <sequence>90</sequence>
+  <logger>Classifier</logger>
+  <level>INFO</level>
+  <class>pl.waw.pduda.wedt.WedtClassifier</class>
+  <method>train</method>
+  <thread>10</thread>
+  <message>Train from url - http://technologie.gazeta.pl/internet/1,104530,15198329,Ta_nowa_technika_kryminalistyczna_pozwoli_znajdowac.html</message>
+</record>
+<record>
+  <date>2014-01-17T00:47:45</date>
+  <millis>1389916065801</millis>
+  <sequence>91</sequence>
+  <logger>Classifier</logger>
+  <level>INFO</level>
+  <class>pl.waw.pduda.wedt.WedtClassifier</class>
+  <method>train</method>
+  <thread>10</thread>
+  <message>Train from url - http://technologie.gazeta.pl/internet/1,104530,15196591,Kobiety__wino_i_Galaxy_Gear_czyli_jak_Samsung_reklamuje.html</message>
+</record>
+<record>
+  <date>2014-01-17T00:47:45</date>
+  <millis>1389916065827</millis>
+  <sequence>92</sequence>
+  <logger>Classifier</logger>
+  <level>INFO</level>
+  <class>pl.waw.pduda.wedt.WedtClassifier</class>
+  <method>train</method>
+  <thread>10</thread>
+  <message>Train from url - http://technologie.gazeta.pl/internet/1,104530,15196509,Urzadzenia_mobilne_coraz_popularniejsze__Dzieki_temu.html</message>
+</record>
+<record>
+  <date>2014-01-17T00:47:45</date>
+  <millis>1389916065864</millis>
+  <sequence>93</sequence>
+  <logger>Classifier</logger>
+  <level>INFO</level>
+  <class>pl.waw.pduda.wedt.WedtClassifier</class>
+  <method>train</method>
+  <thread>10</thread>
+  <message>Train from url - http://technologie.gazeta.pl/internet/1,104530,15189643,Osmieszyl_polskich_policjantow__teraz_przebil_milion.html</message>
+</record>
+<record>
+  <date>2014-01-17T00:47:45</date>
+  <millis>1389916065904</millis>
+  <sequence>94</sequence>
+  <logger>Classifier</logger>
+  <level>INFO</level>
+  <class>pl.waw.pduda.wedt.WedtClassifier</class>
+  <method>train</method>
+  <thread>10</thread>
+  <message>Train from url - http://technologie.gazeta.pl/internet/1,113840,15193600,Na_YouTube_i_Facebooka_zostanie_we_Francji_nalozony.html</message>
+</record>
+<record>
+  <date>2014-01-17T00:47:45</date>
+  <millis>1389916065925</millis>
+  <sequence>95</sequence>
+  <logger>Classifier</logger>
+  <level>INFO</level>
+  <class>pl.waw.pduda.wedt.WedtClassifier</class>
+  <method>train</method>
+  <thread>10</thread>
+  <message>Train from url - http://technologie.gazeta.pl/internet/1,113841,15192481,Microsoft_w_swiatecznym_humorze__20GB_na_Skydrive.html</message>
+</record>
+<record>
+  <date>2014-01-17T00:47:45</date>
+  <millis>1389916065950</millis>
+  <sequence>96</sequence>
+  <logger>Classifier</logger>
+  <level>INFO</level>
+  <class>pl.waw.pduda.wedt.WedtClassifier</class>
+  <method>train</method>
+  <thread>10</thread>
+  <message>Train from url - http://technologie.gazeta.pl/internet/1,113841,15192178,W_przyszlym_roku_Nokia_zaprezentuje_inteligentny_zegarek_.html</message>
+</record>
+<record>
+  <date>2014-01-17T00:47:45</date>
+  <millis>1389916065968</millis>
+  <sequence>97</sequence>
+  <logger>Classifier</logger>
+  <level>INFO</level>
+  <class>pl.waw.pduda.wedt.WedtClassifier</class>
+  <method>train</method>
+  <thread>10</thread>
+  <message>Train from url - http://technologie.gazeta.pl/internet/1,104530,15190037,Stworzenie_tego_rozszerzenia_do_Chrome_bylo_kwestia.html</message>
+</record>
+<record>
+  <date>2014-01-17T00:47:45</date>
+  <millis>1389916065996</millis>
+  <sequence>98</sequence>
+  <logger>Classifier</logger>
+  <level>INFO</level>
+  <class>pl.waw.pduda.wedt.WedtClassifier</class>
+  <method>train</method>
+  <thread>10</thread>
+  <message>Train from url - http://technologie.gazeta.pl/internet/1,104665,15184570,Maja_pomagac_nam_w_internecie__ale_wolimy_rozmawiac.html</message>
+</record>
+<record>
+  <date>2014-01-17T00:47:46</date>
+  <millis>1389916066020</millis>
+  <sequence>99</sequence>
+  <logger>Classifier</logger>
+  <level>INFO</level>
+  <class>pl.waw.pduda.wedt.WedtClassifier</class>
+  <method>train</method>
+  <thread>10</thread>
+  <message>Train from url - http://technologie.gazeta.pl/internet/1,113842,15189703,Sony_i_Panasonic_koncza_wspolprace___czy_to_koniec.html</message>
+</record>
+<record>
+  <date>2014-01-17T00:47:46</date>
+  <millis>1389916066044</millis>
+  <sequence>100</sequence>
+  <logger>Classifier</logger>
+  <level>INFO</level>
+  <class>pl.waw.pduda.wedt.WedtClassifier</class>
+  <method>train</method>
+  <thread>10</thread>
+  <message>Train from url - http://technologie.gazeta.pl/internet/1,113841,15187887,Powazna_luka_w_zabezpieczeniach_Galaxy_S4__Aktualizacja_.html</message>
+</record>
+<record>
+  <date>2014-01-17T00:47:46</date>
+  <millis>1389916066067</millis>
+  <sequence>101</sequence>
+  <logger>Classifier</logger>
+  <level>INFO</level>
+  <class>pl.waw.pduda.wedt.WedtClassifier</class>
+  <method>train</method>
+  <thread>10</thread>
+  <message>Train from url - http://technologie.gazeta.pl/internet/56,104530,15187222,Najwieksze_technologiczne_wpadki_2013_roku.html</message>
+</record>
+<record>
+  <date>2014-01-17T00:47:46</date>
+  <millis>1389916066090</millis>
+  <sequence>102</sequence>
+  <logger>Classifier</logger>
+  <level>INFO</level>
+  <class>pl.waw.pduda.wedt.WedtClassifier</class>
+  <method>train</method>
+  <thread>10</thread>
+  <message>Train from url - http://technologie.gazeta.pl/internet/56,104530,15186199,Najlepsze_aplikacje_i_gry_na_Androida__ktore_musisz.html</message>
+</record>
+<record>
+  <date>2014-01-17T00:47:46</date>
+  <millis>1389916066112</millis>
+  <sequence>103</sequence>
+  <logger>Classifier</logger>
+  <level>INFO</level>
+  <class>pl.waw.pduda.wedt.WedtClassifier</class>
+  <method>train</method>
+  <thread>10</thread>
+  <message>Train from url - http://technologie.gazeta.pl/internet/1,113840,15187071,Jutro_swieta_Bozego_Narodzenia___dlaczego_obchodzimy.html</message>
+</record>
+<record>
+  <date>2014-01-17T00:47:46</date>
+  <millis>1389916066134</millis>
+  <sequence>104</sequence>
+  <logger>Classifier</logger>
+  <level>INFO</level>
+  <class>pl.waw.pduda.wedt.WedtClassifier</class>
+  <method>train</method>
+  <thread>10</thread>
+  <message>Train from url - http://technologie.gazeta.pl/internet/1,104530,15186156,Dzieki_tej_umowie_Apple_zdobedzie_miliony_nowych_klientow_.html</message>
+</record>
+<record>
+  <date>2014-01-17T00:47:46</date>
+  <millis>1389916066153</millis>
+  <sequence>105</sequence>
+  <logger>Classifier</logger>
+  <level>INFO</level>
+  <class>pl.waw.pduda.wedt.WedtClassifier</class>
+  <method>train</method>
+  <thread>10</thread>
+  <message>Train from url - http://technologie.gazeta.pl/internet/1,113840,15186656,Oto_najlepsze__co_bylo_na_YouTube_w_2013_roku__WIDEO_.html</message>
+</record>
+<record>
+  <date>2014-01-17T00:47:46</date>
+  <millis>1389916066182</millis>
+  <sequence>106</sequence>
+  <logger>Classifier</logger>
+  <level>INFO</level>
+  <class>pl.waw.pduda.wedt.WedtClassifier</class>
+  <method>train</method>
+  <thread>10</thread>
+  <message>Train from url - http://technologie.gazeta.pl/internet/1,104530,15186140,_Nie_denerwuj_sie__ale_natknalem_sie_na_Twoje_nagie.html</message>
+</record>
+<record>
+  <date>2014-01-17T00:47:46</date>
+  <millis>1389916066212</millis>
+  <sequence>107</sequence>
+  <logger>Classifier</logger>
+  <level>INFO</level>
+  <class>pl.waw.pduda.wedt.WedtClassifier</class>
+  <method>train</method>
+  <thread>10</thread>
+  <message>Train from url - http://technologie.gazeta.pl/internet/1,104530,15186269,Kosmos_made_in_China.html</message>
+</record>
+<record>
+  <date>2014-01-17T00:47:46</date>
+  <millis>1389916066242</millis>
+  <sequence>108</sequence>
+  <logger>Classifier</logger>
+  <level>INFO</level>
+  <class>pl.waw.pduda.wedt.WedtClassifier</class>
+  <method>train</method>
+  <thread>10</thread>
+  <message>Train from url - http://technologie.gazeta.pl/internet/1,104530,15182501,Dziennik_telewizyjny_sprzed_25_lat_zdumiewajaco_trafnie.html</message>
+</record>
+<record>
+  <date>2014-01-17T00:47:46</date>
+  <millis>1389916066268</millis>
+  <sequence>109</sequence>
+  <logger>Classifier</logger>
+  <level>INFO</level>
+  <class>pl.waw.pduda.wedt.WedtClassifier</class>
+  <method>train</method>
+  <thread>10</thread>
+  <message>Train from url - http://technologie.gazeta.pl/internet/1,104530,15183101,Bronislaw_Komorowski_zyczy_fejsbukowiczom__samych.html</message>
+</record>
+<record>
+  <date>2014-01-17T00:47:46</date>
+  <millis>1389916066300</millis>
+  <sequence>110</sequence>
+  <logger>Classifier</logger>
+  <level>INFO</level>
+  <class>pl.waw.pduda.wedt.WedtClassifier</class>
+  <method>train</method>
+  <thread>10</thread>
+  <message>Train from url - http://technologie.gazeta.pl/internet/1,104530,15181432,_Dzien_dobry_panie_Wakata__czyli_jak_kosmiczny_robot.html</message>
+</record>
+<record>
+  <date>2014-01-17T00:47:46</date>
+  <millis>1389916066318</millis>
+  <sequence>111</sequence>
+  <logger>Classifier</logger>
+  <level>INFO</level>
+  <class>pl.waw.pduda.wedt.WedtClassifier</class>
+  <method>train</method>
+  <thread>10</thread>
+  <message>Train from url - http://technologie.gazeta.pl/internet/1,104530,15181201,Piszac_aplikacje_na_ten_system_wreszcie_da_sie_zarobic.html</message>
+</record>
+<record>
+  <date>2014-01-17T00:47:46</date>
+  <millis>1389916066341</millis>
+  <sequence>112</sequence>
+  <logger>Classifier</logger>
+  <level>INFO</level>
+  <class>pl.waw.pduda.wedt.WedtClassifier</class>
+  <method>train</method>
+  <thread>10</thread>
+  <message>Train from url - http://technologie.gazeta.pl/internet/1,104530,15177513,Lepsze_niz_Google_Glass__Byc_moze__Ale_tez_duzo_drozsze.html</message>
+</record>
+<record>
+  <date>2014-01-17T00:47:46</date>
+  <millis>1389916066361</millis>
+  <sequence>113</sequence>
+  <logger>Classifier</logger>
+  <level>INFO</level>
+  <class>pl.waw.pduda.wedt.WedtClassifier</class>
+  <method>train</method>
+  <thread>10</thread>
+  <message>Train from url - http://technologie.gazeta.pl/internet/1,104530,15177481,Google_Street_View_rzuca_ci_wyzwanie__odnajdz_figurki.html</message>
+</record>
+<record>
+  <date>2014-01-17T00:47:46</date>
+  <millis>1389916066386</millis>
+  <sequence>114</sequence>
+  <logger>Classifier</logger>
+  <level>INFO</level>
+  <class>pl.waw.pduda.wedt.WedtClassifier</class>
+  <method>train</method>
+  <thread>10</thread>
+  <message>Train from url - http://technologie.gazeta.pl/internet/1,104530,15177508,Ta_decyzja_przysporzyla_Spotify_tysiace_nowych_uzytkownikow.html</message>
+</record>
+<record>
+  <date>2014-01-17T00:47:46</date>
+  <millis>1389916066405</millis>
+  <sequence>115</sequence>
+  <logger>Classifier</logger>
+  <level>INFO</level>
+  <class>pl.waw.pduda.wedt.WedtClassifier</class>
+  <method>train</method>
+  <thread>10</thread>
+  <message>Train from url - http://technologie.gazeta.pl/internet/1,104530,15174633,Tajemniczy_inwestor_uratuje_Winampa___AKTUALIZACJA_.html</message>
+</record>
+<record>
+  <date>2014-01-17T00:47:46</date>
+  <millis>1389916066430</millis>
+  <sequence>116</sequence>
+  <logger>Classifier</logger>
+  <level>INFO</level>
+  <class>pl.waw.pduda.wedt.WedtClassifier</class>
+  <method>train</method>
+  <thread>10</thread>
+  <message>Finished training</message>
 </record>
 </log>

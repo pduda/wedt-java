@@ -1,39 +1,4 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE log SYSTEM "logger.dtd">
 <log>
-<record>
-  <date>2014-01-15T21:36:39</date>
-  <millis>1389818199404</millis>
-  <sequence>1</sequence>
-  <logger>App</logger>
-  <level>INFO</level>
-  <class>Wedt</class>
-  <method>main</method>
-  <thread>10</thread>
-  <message>Classifier Error: com.mysql.jdbc.CommunicationsException: Communications link failure due to underlying exception: 
-
-** BEGIN NESTED EXCEPTION ** 
-
-java.net.SocketException
-MESSAGE: java.net.ConnectException: Connection timed out
-
-STACKTRACE:
-
-java.net.SocketException: java.net.ConnectException: Connection timed out
-	at com.mysql.jdbc.StandardSocketFactory.connect(StandardSocketFactory.java:151)
-	at com.mysql.jdbc.MysqlIO.&lt;init&gt;(MysqlIO.java:280)
-	at com.mysql.jdbc.Connection.createNewIO(Connection.java:1774)
-	at com.mysql.jdbc.Connection.&lt;init&gt;(Connection.java:437)
-	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:268)
-	at java.sql.DriverManager.getConnection(DriverManager.java:615)
-	at java.sql.DriverManager.getConnection(DriverManager.java:195)
-	at pl.waw.pduda.database.Database.&lt;init&gt;(Database.java:22)
-	at pl.waw.pduda.wedt.WedtClassifier.train(WedtClassifier.java:53)
-	at Wedt.main(Wedt.java:73)
-
-
-** END NESTED EXCEPTION **
-
-</message>
-</record>
 </log>

@@ -61,13 +61,17 @@ public class Wedt
     		System.exit(0);
     	}*/
 		String [] testLinks = {
+				"http://wiadomosci.onet.pl/swiat/ramzan-kadyrow-twierdzi-ze-doku-umarow-nie-zyje/ler3b",
+				"http://antyweb.pl/czy-prawdziwa-fotografia-jeszcze-istnieje-czy-istniala-kiedykolwiek/",
+				"http://antyweb.pl/tablet-z-windows-8-to-teraz-tablet-z-chrome-os/",
+				"http://webmastah.pl/ghost-0-4-nowe-wydanie-platformy-blogowej-w-node-js/",
 				"http://sport.wp.pl/kat,1842,title,Janowicz-jakbym-dostal-kijem-bejsbolowym,wid,16329569,wiadomosc.html"
 		};
     	//String link = "http://antyweb.pl/czy-prawdziwa-fotografia-jeszcze-istnieje-czy-istniala-kiedykolwiek/";
     	
     	try
     	{
-	    	WedtClassifier classifier = new WedtClassifier(WedtClassifier.MODE_STEM);
+	    	WedtClassifier classifier = new WedtClassifier(4);
 	    	
 	    	//trening
 	    	classifier.train();
@@ -76,10 +80,10 @@ public class Wedt
 	    	//classifier.readClassifier("1_test");
 //	    	/classifier.readClassifier("2_path");
 	    	
-	    	/*for(String link: testLinks)
+	    	for(String link: testLinks)
 	    	{
 	    		classifier.classify(link);
-	    	}*/
+	    	}
 	    	/*Database db2 = new Database();
 			ResultSet rs = db2.select("select * from www_blocks_parser where id="+url_id);
 			

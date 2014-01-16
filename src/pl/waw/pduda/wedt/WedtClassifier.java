@@ -96,6 +96,18 @@ public class WedtClassifier
 			case 2: //analiza stemow itp
 				tempBlock = new StemBlock(temp_block.text(),page.getNumberWords(),page.getNumberStems());
 				break;
+			case 3: //analiza htmla
+				tempBlock = new HtmlBlock(temp_block);
+				break;
+			case 4: //analiza htmla + stem
+				DummyBlock temp0 = new DummyBlock();
+				HtmlBlock temp1 = new HtmlBlock(temp_block);
+				StemBlock temp2 = new StemBlock(temp_block.text(),page.getNumberWords(),page.getNumberStems());
+				temp0.addAttrs(temp1.getAttributes());
+				temp0.addAttrs(temp2.getAttributes());
+				tempBlock =temp0;
+				
+				break;
 			default:
 				tempBlock = new TextBlock(temp_block.text(),page.getNumberWords());
 				break;
