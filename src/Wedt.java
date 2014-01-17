@@ -68,15 +68,16 @@ public class Wedt
 				"http://sport.wp.pl/kat,1842,title,Janowicz-jakbym-dostal-kijem-bejsbolowym,wid,16329569,wiadomosc.html"
 		};
     	//String link = "http://antyweb.pl/czy-prawdziwa-fotografia-jeszcze-istnieje-czy-istniala-kiedykolwiek/";
+    	//String block = "<h1 class=\"entry-title \"><span class=\"left-spacer\"></span><span>Czy prawdziwa fotografia jeszcze istnieje? Czy istniała kiedykolwiek?</span></h1>";
     	
     	try
     	{
 	    	WedtClassifier classifier = new WedtClassifier(4);
 	    	
 	    	//trening
-	    	classifier.train();
+	    	//classifier.train();
 	    	//classifier.saveClassifier();
-	    	//classifier.readClassifier();
+	    	classifier.readClassifier();
 	    	//classifier.readClassifier("1_test");
 //	    	/classifier.readClassifier("2_path");
 	    	
@@ -84,15 +85,8 @@ public class Wedt
 	    	{
 	    		classifier.classify(link);
 	    	}
-	    	/*Database db2 = new Database();
-			ResultSet rs = db2.select("select * from www_blocks_parser where id="+url_id);
-			
-			TextBlock tempBlock=null;
-			while(rs.next())
-	    	{
-				System.out.println(classifier.classifyText("<div></div>"));
-	    	}*/
-			//System.out.println(classifier.classifyText("<div></div>"));
+	    	//System.out.println(classifier.testClassify(block, link));
+
 	    }
     	catch(Exception e)
     	{
@@ -100,11 +94,7 @@ public class Wedt
     		System.exit(0);
     	}
     	System.out.println("done");
-   	    //zapis
-    	//classifier.saveClassifier("data/1uczenie");
-    	//classifier.readClassifier("data/1uczenie");
-    	
-    	//klasyfikacja
+
     	
     	
     }

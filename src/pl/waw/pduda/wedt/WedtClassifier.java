@@ -131,6 +131,19 @@ public class WedtClassifier
 	{
 		this.classifier = (NaiveBayesClassifier) Helper.readObject(path) ;
 	}
+	public String testClassify(String block,String link) throws IOException
+	{
+		WebPage page=null;
+		AttributeInterface tempBlock=null;
+		
+		org.jsoup.nodes.Document doc = Jsoup.connect(link).get();
+		page = new WebPage(doc.outerHtml(),true);
+		tempBlock = this.generateBlockRepresentation(block,page);
+		
+		
+		return this.classifier.classify(tempBlock.getAttributes());
+		
+	}
 	public void classify(String link) throws Exception
 	{
 		String tempClass = DEFUALT_CLASS;

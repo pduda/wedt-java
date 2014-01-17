@@ -30,6 +30,7 @@ public class HtmlBlock implements AttributeInterface
 		this.countParagraphs();
 		this.countListItems();
 		this.countAnchors();
+		this.mainTagName();
 	}
 	private void mainTagName()
 	{
@@ -37,7 +38,10 @@ public class HtmlBlock implements AttributeInterface
     	for(Element temp: blocks)
     	{
     		this.tagName=temp.tagName();
+    		break;
     	}
+    	if(this.tagName=="h1" || this.tagName=="h2")
+    		this.tagName="header";
 	}
 	private void countParagraphs()
 	{
